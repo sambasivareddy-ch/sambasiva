@@ -50,14 +50,14 @@ const Contact = () => {
                 </li>
             </ul>
             <p className={styles['attribution']}>
-                Get Inspiration from{" "}
-                <a
+                Get Inspiration from Brittany Chiang
+                {/* <a
                     href="https://brittanychiang.com/"
                     target="_blank"
                     rel="noreferrer"
                 >
                     Brittany Chiang
-                </a>
+                </a> */}
             </p>
             <p className={styles['attribution']}>Designed & Built by Siva Chinta</p>
         </div>
