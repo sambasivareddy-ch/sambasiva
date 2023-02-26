@@ -21,7 +21,7 @@ const projects_arr = [
     {
         project_name: "Control of Photo Sharing over social network",
         gitlink: "https://github.com/samba-chinta/mini-2",
-        description: "A project made with intention to provide privacy while posting their images in Social Media, by detecting the users in the image, sending the users a notification to confirm whether to accept/not.",
+        description: "A project to provide privacy while posting in Social Media, by using facial recognition we send the users a notification to confirm whether to accept/not.",
         skills: ['React.js', 'Node.js', 'Express.js', 'REST', 'ML', 'Flask'],
         status: "Completed"
     }

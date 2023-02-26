@@ -12,7 +12,7 @@
 }
 
 .my-name {
-    font-size: 100px;
+    font-size: 4em;
 }
 
 .my-name::after {
@@ -140,7 +140,7 @@
 .table {
     margin: 20px 0;
     border-collapse: collapse;
-    width: 100%;
+    width: 90%;
 }
 
 .table th,
@@ -160,7 +160,8 @@
     margin: 30px auto;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
 .pro-wrapper {
@@ -169,8 +170,9 @@
     height: 350px;
     padding: 20px;
     display: grid;
-    grid-template-rows: 20% 60% 10%;
+    grid-template-rows: 20% 60% 15%;
     align-content: space-around;
+    margin: 5px auto;
 }
 
 .pro-wrapper * {
@@ -201,8 +203,8 @@
 }
 
 .project-body p {
-    font-size: 14px;
-    margin: 20px auto;
+    font-size: 12px;
+    margin: 10px auto;
 }
 
 .project-footer ul{
@@ -268,51 +270,50 @@
     font-size: 12px;
 }
 
-@media screen and (min-width: 800px) and (max-width: 1100px) {
-    .pro-wrapper{
-        width: 42%;
-        grid-template-rows: 10% 60% 20%;
-        justify-content: space-around;
+/* @media screen and (max-width: 599px) {
+    .my-img {
+        display: none;
     }
-}
-
-@media screen and (max-width: 800px) {
-    .pro-wrapper{
+    .about-div__wrapper {
+        width: 90%;
+    }
+    .intro-me {
         width: 100%;
-        grid-template-rows: 10% 50% 20%;
     }
-}
+    
+} */
 
-@media screen and (max-width: 900px) {
-    .intro-wrapper {
+@media screen and (min-width: 200px) and (max-width: 1015px) {
+    .about-div__wrapper {
         width: 90%;
     }
-    .intro-me,
-    .about-div__wrapper,
-    .experience-wrapper,
-    .edu-wrapper,
-    .projects-wrapper,
-    .contact-wrapper {
+    .intro-me {
         width: 90%;
     }
-    .about-wrapper{
-        margin: 0;
+    .my-img {
+        display: none;
     }
     .contact-message {
         width: 80%;
     }
-    .about-div__wrapper {
-        align-items: center;
-    }
-    .about-div__wrapper {
-        flex-wrap: wrap;
-        gap: 20px;
-    }
-    .my-img {
+}
+
+@media screen and (min-width: 200px) and (max-width: 828px){
+    .pro-wrapper {
         width: 100%;
-        display: none;
+        height: 350px;
+        grid-template-rows: 10% 60% 20%;
     }
-    .title::after {
-        width: 130px;
+    .edu-wrapper table {
+        overflow-x: scroll;
+    }
+    .title::after{
+        width: 100px;
+    }
+}
+
+@media screen and (min-width: 829px) and (max-width: 1015px){
+    .pro-wrapper {
+        width: 280px;
     }
 }

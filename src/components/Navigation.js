@@ -40,27 +40,27 @@ const Navigation = () => {
                             About
                         </a>
                     </li>
-                    <li>
+                    {/* <li>
                         <a className={styles["nav-link"]} href="#education">
                             <span className={styles["list-number"]}>02.</span>
                             Education
                         </a>
-                    </li>
+                    </li> */}
                     <li>
                         <a className={styles["nav-link"]} href="#experience">
-                            <span className={styles["list-number"]}>03.</span>
+                            <span className={styles["list-number"]}>02.</span>
                             Experience
                         </a>
                     </li>
                     <li>
                         <a className={styles["nav-link"]} href="#projects">
-                            <span className={styles["list-number"]}>04.</span>
+                            <span className={styles["list-number"]}>03.</span>
                             Projects
                         </a>
                     </li>
                     <li>
                         <a className={styles["nav-link"]} href="#contact">
-                            <span className={styles["list-number"]}>05.</span>
+                            <span className={styles["list-number"]}>04.</span>
                             Contact
                         </a>
                     </li>
