@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.logo-wrapper {
+    padding: 5px;
+    border: solid 1px var(--cyan-color);
+    width: fit-content;
+    cursor: pointer;
+}
+
+.logo-letter {
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: var(--cyan-color);
+}

@@ -1,0 +1,6 @@
+.app {
+    background-color: var(--bg-color);
+    color: #FFFFFF;
+    font-family: var(--font-family-pop);
+    padding: 20px;
+}
