@@ -1,23 +1,15 @@
 import React from 'react';
-import styles from './styles/app.module.css';
-
-import Navigation from './components/Navigation';
-import Intro from './components/Intro';
-import About from './components/About';
-import Education from './components/Education';
-import Experience from './components/Experience';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
+import { Route, Routes } from 'react-router-dom';
+import ProjectPage from './pages/ProjectPage';
+import Main from './pages/Main';
 
 const App = () => {
   return (
-    <div className={styles['app']}>
-      <Navigation />
-      <Intro />
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
+    <div>
+      <Routes>
+        <Route path='/' element={<Main />} exact />
+        <Route path='/projects' element={<ProjectPage />} exact />
+      </Routes>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 import styles from '../styles/page.module.css';
 import Project from './Project';
 
@@ -37,6 +37,11 @@ const Projects = () => {
                         return <Project project_details={pro} key={ Math.random() } />
                     })
                 }
+            </div>
+            <div className={styles['view-more__wrapper']}>
+                <button className={styles['view-more__btn']}>
+                        <Link to="/projects">View More</Link>
+                </button>
             </div>
         </div>
     )

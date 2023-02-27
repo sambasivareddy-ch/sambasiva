@@ -1,0 +1,31 @@
+.project-page__wrapper {
+    width: 80%;
+    margin: 20px auto;
+    font-family: var(--font-family-pop);
+}
+
+.home-link {
+    text-decoration: none;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: var(--cyan-color);
+    gap: 10px;
+}
+
+.home-link:hover {
+    color: #FFFFFF;
+}
+
+.projects-wrapper {
+    margin: 20px 0;
+}
+
+.title {
+    text-align: center;
+}
+
+.projects-list {
+    margin: 20px;
+}

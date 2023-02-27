@@ -270,6 +270,34 @@
     font-size: 12px;
 }
 
+.view-more__wrapper {
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.view-more__btn {
+    width: fit-content;
+    outline: none;
+    border: solid 1px var(--cyan-color);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.view-more__btn a{
+    text-decoration: none;
+    color: var(--cyan-color);
+}
+
+.view-more__btn:hover {
+    background-color: var(--cyan-color);
+}
+
+.view-more__btn:hover a {
+    color: #000000;
+    background-color: transparent;
+}
+
 /* @media screen and (max-width: 599px) {
     .my-img {
         display: none;
