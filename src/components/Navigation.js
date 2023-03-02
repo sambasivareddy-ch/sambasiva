@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import styles from "../styles/navigation.module.css";
 import Logo from "./Logo";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -63,6 +63,12 @@ const Navigation = () => {
                             <span className={styles["list-number"]}>04.</span>
                             Contact
                         </a>
+                    </li>
+                    <li>
+                        <Link to="/blog" className={styles["nav-link"]} href="#contact">
+                            <span className={styles["list-number"]}>05.</span>
+                            Blog
+                        </Link>
                     </li>
                 </ol>
             </nav>
