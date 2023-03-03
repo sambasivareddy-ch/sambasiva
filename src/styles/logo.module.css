@@ -2,7 +2,7 @@
 
 .logo-wrapper {
     padding: 5px;
-    border: solid 1px var(--cyan-color);
+    border: solid 1px #311b92;
     width: fit-content;
     cursor: pointer;
 }
@@ -10,5 +10,5 @@
 .logo-letter {
     letter-spacing: 1px;
     text-decoration: none;
-    color: var(--cyan-color);
+    color: #311b92;
 }

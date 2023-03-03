@@ -18,19 +18,19 @@
 }
 
 .nav-link {
-    color: #FFFFFF;
+    color: #000;
     text-decoration: none;
     letter-spacing: 1px;
     font-size: 12px;
 }
 
 .list-number {
-    color: var(--cyan-color);
+    color:#311b92;
     margin: 0 5px;
 }
 
 .nav-link:hover {
-    color: var(--cyan-color);
+    color: #311b92;
 }
 
 .menu-icon {
