@@ -276,6 +276,7 @@
     border: solid 1px #311b92;
     padding: 15px;
     border-radius: 5px;
+    background-color: #FFF;
 }
 
 .view-more__btn a{
