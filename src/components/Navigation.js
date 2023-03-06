@@ -64,12 +64,6 @@ const Navigation = () => {
                             Contact
                         </a>
                     </li>
-//                     <li>
-//                         <Link to="/blog" className={styles["nav-link"]} href="#contact">
-//                             <span className={styles["list-number"]}>05.</span>
-//                             Blog
-//                         </Link>
-//                     </li>
                 </ol>
             </nav>
         </header>
