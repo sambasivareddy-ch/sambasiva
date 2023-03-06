@@ -9,7 +9,6 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Main />} exact />
         <Route path='/projects' element={<ProjectPage />} exact />
-        //<Route path='/blog' element={<Blog/>} exact />
       </Routes>
   );
 }
