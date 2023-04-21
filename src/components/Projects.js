@@ -5,6 +5,13 @@ import Project from './Project';
 
 const projects_arr = [
     {
+        project_name: "Social Clubs Event Manager",
+        gitlink: "https://github.com/samba-chinta/club_manager",
+        description: "A project which helps to integrate all the social clubs in the college & helps in scheduling their events without any conflicts with other club events.",
+        skills: ['React.js', 'Node.js', 'Express.js', 'REST', 'MongoDB'],
+        status: "Completed"
+    },
+    {
         project_name: "Real-time Chat App",
         gitlink: "https://github.com/samba-chinta/realtime-chat-app",
         description: "Help the users to one-to-one communicate in real-time, and it allows the users to make both audio and video calls in real-time.",
