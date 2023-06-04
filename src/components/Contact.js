@@ -32,7 +32,7 @@ const Contact = () => {
                 </li>
                 <li>
                     <a
-                        href="https://www.instagram.com/sivachinta_2787/"
+                        href="https://www.instagram.com/ssr.chinta/"
                         rel="noreferrer"
                         target="_blank"
                     >
