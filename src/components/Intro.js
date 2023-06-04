@@ -10,10 +10,8 @@ const Intro = () => {
             <h1 className={styles["my-name"]}>Samba Siva</h1>
             <p className={styles["intro-me"]}>
                 I'm working as{" "}
-                <span className={styles["designation"]}>Project Trainee</span>{" "}
-                in Zoho Corporation. Currently, I'm focused on the latest
-                technologies like React.js, Express.js, Node.js, 
-                JavaScript, GraphQL etc.
+                <span className={styles["designation"]}>Software Developer (MTS)</span>{" "}
+                in Zoho Corporation. I am a Full Stack Web Developer based on MERN stack. I am currently working on Blockchain (Web3).
                 <br />
             </p>
             <a

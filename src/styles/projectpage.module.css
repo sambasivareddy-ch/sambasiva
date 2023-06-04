@@ -28,5 +28,11 @@
 }
 
 .projects-list {
-    margin: 20px 0;
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-page__display {
+    width: 50%;
 }

@@ -2,7 +2,6 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import ProjectPage from './pages/ProjectPage';
 import Main from './pages/Main';
-import Blog from './pages/Blog';
 
 const App = () => {
   return (

@@ -103,7 +103,7 @@
 
 .my-img {
     width: 320px;
-    height: 320px;
+    height: auto;
 }
 
 .about-wrapper {

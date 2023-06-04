@@ -6,6 +6,13 @@ import KeyboardBackspaceIcon from "@mui/icons-material/KeyboardBackspace";
 
 const projects_arr = [
     {
+        project_name: "Social Clubs Event Manager",
+        gitlink: "https://github.com/samba-chinta/club_manager",
+        description: "A project which helps to integrate all the social clubs in the college & helps in scheduling their events without any conflicts with other club events.",
+        skills: ['React.js', 'Node.js', 'Express.js', 'REST', 'MongoDB'],
+        status: "Completed"
+    },
+    {
         project_name: "Real-time Chat App",
         gitlink: "https://github.com/samba-chinta/realtime-chat-app",
         description:
@@ -20,14 +27,6 @@ const projects_arr = [
         description:
             "A project which helps the students to clear their doubts by posting the doubts in the form of question, and get answers from fellow students.",
         skills: ["React.js", "Node.js", "Express.js", "REST"],
-        status: "Completed",
-    },
-    {
-        project_name: "Control of Photo Sharing over social network",
-        gitlink: "https://github.com/samba-chinta/mini-2",
-        description:
-            "A project to provide privacy while posting in Social Media, by using facial recognition we send the users a notification to confirm whether to accept/not.",
-        skills: ["React.js", "Node.js", "Express.js", "REST", "ML", "Flask"],
         status: "Completed",
     },
 ];
@@ -45,6 +44,7 @@ const ProjectPage = (props) => {
                         return (
                             <Project
                                 project_details={pro}
+                                className={styles['project-page__display']}
                                 key={Math.random()}
                             />
                         );

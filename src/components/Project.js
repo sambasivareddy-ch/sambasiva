@@ -3,15 +3,17 @@ import FolderIcon from "@mui/icons-material/Folder";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import styles from "../styles/page.module.css";
 
-const Project = ({ project_details }) => {
+const Project = (props) => {
+    console.log(props)
+    const classes = `${styles["pro-wrapper"]} ${props.className}`
     return (
-        <div className={styles["pro-wrapper"]}>
+        <div className={classes}>
             <div className={styles["project-header"]}>
                 <FolderIcon />
                 <div>
-                    <span className={"status"}>{ project_details.status }</span>
+                    <span className={"status"}>{ props.project_details.status }</span>
                 <a
-                    href={project_details.gitlink}
+                    href={props.project_details.gitlink}
                     target="_blank"
                     rel="noreferrer"
                 >
@@ -20,12 +22,12 @@ const Project = ({ project_details }) => {
                 </div>
             </div>
             <div className={styles["project-body"]}>
-                <h3>{project_details.project_name}</h3>
-                <p>{project_details.description}</p>
+                <h3>{props.project_details.project_name}</h3>
+                <p>{props.project_details.description}</p>
             </div>
             <div className={styles["project-footer"]}>
                 <ul>
-                {project_details.skills.map((skill) => {
+                {props.project_details.skills.map((skill) => {
                     return <li key={Math.random()}>{skill}</li>;
                 })}
                 </ul>

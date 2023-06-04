@@ -7,7 +7,7 @@ const Experience = () => {
         <div id="experience" className={styles["experience-wrapper"]}>
             <h2 className={styles["title"]}>Experience</h2>
             <div className={styles["experience"]}>
-                <h3 className={styles["experience-title"]}>01. Project Trainee</h3>
+                <h3 className={styles["experience-title"]}>01. Member Technical Staff</h3>
                 <p className={styles["company"]}>
                     Company:{" "}
                     <a
@@ -20,7 +20,7 @@ const Experience = () => {
                     </a>
                     , Chennai, Tamilnadu
                 </p>
-                <p className={styles["exp-duration"]}>January 2023 - Present</p>
+                <p className={styles["exp-duration"]}>June 2023 - Present</p>
                 <ul className={styles["highlights"]}>
                     <li>
                         Worked on Distributed Database, main purpose of DistDB
@@ -28,11 +28,11 @@ const Experience = () => {
                         partitioning the data on some partition key, which
                         further helps in easy access of data.
                     </li>
-                    <li>Technologies used: C, C++, Postgresql</li>
+                    <li>Technologies used: C, C++, Postgresql, Git, SQL</li>
                 </ul>
             </div>
             <div className={styles["experience"]}>
-                <h3 className={styles["experience-title"]}>02. Summer Intern</h3>
+                <h3 className={styles["experience-title"]}>02. Project Trainee</h3>
                 <p className={styles["company"]}>
                     Company:{" "}
                     <a
@@ -45,16 +45,9 @@ const Experience = () => {
                     </a>
                     , Chennai, Tamilnadu
                 </p>
-                <p className={styles["exp-duration"]}>
-                    July 2022 - August 2022
-                </p>
+                <p className={styles["exp-duration"]}>January 2023 - June 2023</p>
                 <ul className={styles["highlights"]}>
-                    <li>
-                        Worked on Distributed Database, main purpose of DistDB
-                        is to distribute the data along the shards by
-                        partitioning the data.
-                    </li>
-                    <li>Technologies used: C, C++, Postgresql</li>
+                    <li>Technologies used: C, C++, Postgresql, Git, SQL</li>
                 </ul>
             </div>
         </div>
