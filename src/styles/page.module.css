@@ -317,9 +317,6 @@
     .intro-me {
         width: 90%;
     }
-    .my-img {
-        display: none;
-    }
     .contact-message {
         width: 80%;
     }
@@ -339,6 +336,32 @@
     }
     .pro-wrapper {
         height: fit-content;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 600px) {
+    .about-div__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .my-img {
+        display: block;
+        width: 90%;
+        height: 400px;
+        margin: 10px auto;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1015px) {
+    .about-div__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .my-img {
+        display: block;
+        margin: 10px 30px;
+        border-radius: 5px;
     }
 }
 
