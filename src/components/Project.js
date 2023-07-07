@@ -4,7 +4,6 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import styles from "../styles/page.module.css";
 
 const Project = (props) => {
-    console.log(props)
     const classes = `${styles["pro-wrapper"]} ${props.className}`
     return (
         <div className={classes}>
