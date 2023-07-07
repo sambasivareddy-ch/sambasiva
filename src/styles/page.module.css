@@ -312,11 +312,15 @@
 
 @media screen and (min-width: 200px) and (max-width: 1015px) {
     .about-div__wrapper {
-        width: 90%;
+        width: 98%;
     }
     .intro-me {
+        width: 95%;
+    }
+    .experience-wrapper, .projects-wrapper {
         width: 90%;
     }
+
     .contact-message {
         width: 80%;
     }
