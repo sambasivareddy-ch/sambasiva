@@ -178,11 +178,30 @@
     align-items: center;
 }
 
-.project-header div {
+.project-header .header-meta {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
     font-size: 14px;
+}
+
+.status {
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    color: var(--white-color);
+    font-size: 10px;
+}
+
+.completed {
+    border: solid 1px var(--green-color);
+    background-color: var(--green-color);
+}
+
+.in-progress {
+    border: solid 1px var(--charcoal-color);
+    background-color: var(--charcoal-color);
 }
 
 .project-body h3 {
