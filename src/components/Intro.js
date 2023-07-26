@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from "../styles/page.module.css";
-import resume from "../assests/updated_resume.pdf";
+import resume from "../assests/update_resume.pdf";
 
 const Intro = () => {
     return (
