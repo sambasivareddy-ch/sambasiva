@@ -9,13 +9,14 @@
   --font-family-pop: 'Poppins', serif;
   --bg-color: #0B192E;
   --text-color: #90a4ae;
+  --green-color: #43a047;
+  --white-color: #fff;
 }
 
 
 * {
   margin: 0;
   padding: 0;
-  /* background-color: #FFFFFF; */
   color: #000000;
 }
 
