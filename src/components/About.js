@@ -13,7 +13,7 @@ const About = () => {
                     Hello There! I'm V N G Samba Siva Reddy Chinta. Currenly, I
                     am working as 'Member Technical Staff' in Zoho Corporation.
                     And I'm pursuing Computer Science undergraduate degree from
-                    GVPCE (2019 - 2023).
+                    GVPCE (2019 - 2023) with CGPA 9.05.
                 </p>
                 <p className={styles["my-skills"]}>
                     Here are the skills and technologies I'm working on:
