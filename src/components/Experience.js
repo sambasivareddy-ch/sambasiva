@@ -24,12 +24,12 @@ const Experience = () => {
                     <p className={styles["exp-duration"]}>June 2023 - Present</p>
                     <ul className={styles["highlights"]}>
                         <li>
-                            Worked on Distributed Database, main purpose of DistDB
-                            is to distribute the data along the shards by
-                            partitioning the data on some partition key, which
-                            further helps in easy access of data.
+                            Working with R&D team on developing Distributed Database environment based on PostgreSQL.
                         </li>
-                        <li>Technologies used: C, C++, Postgresql, Git, SQL</li>
+                        <li>
+                            Enhancing the existing Planner for faster retrieval of results from the targeted machines by replacing existing file transfer library.
+                        </li>
+                        <li>Skills: C, C++, Postgresql, Git, Data Structures</li>
                     </ul>
                 </div>
                 <div className={styles["experience"]}>
