@@ -48,6 +48,15 @@ const Contact = () => {
                         <GitHubIcon />
                     </a>
                 </li>
+                <li>
+                    <a
+                        href="https://github.com/sambasivareddy-ch"
+                        rel="noreferrer"
+                        target="_blank"
+                    >
+                        <GitHubIcon />
+                    </a>
+                </li>
             </ul>
             <p className={styles['attribution']}>
                 Get Inspiration from Brittany Chiang
