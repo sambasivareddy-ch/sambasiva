@@ -11,8 +11,8 @@ const About = () => {
                 <h2 className={styles["title"]}>About Me</h2>
                 <p className={styles["about-me"]}>
                     Hello There! I'm V N G Samba Siva Reddy Chinta. Currenly, I
-                    am working as 'Member Technical Staff' in Zoho Corporation.
-                    And I'm pursuing Computer Science undergraduate degree from
+                    am working as 'Member Technical Staff' in Zoho Corporation, Chennai.
+                    And I also have Computer Science undergraduate degree from
                     GVPCE (2019 - 2023) with CGPA 9.05.
                 </p>
                 <p className={styles["my-skills"]}>
@@ -31,6 +31,7 @@ const About = () => {
                     <li>C, C++</li>
                     <li>MongoDB</li>
                     <li>postgreSQL</li>
+                    <li>Go language</li>
                 </ul>
             </div>
         </div>
