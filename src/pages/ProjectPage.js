@@ -6,6 +6,13 @@ import KeyboardBackspaceIcon from "@mui/icons-material/KeyboardBackspace";
 
 const projects_arr = [
     {
+        project_name: "Event Management REST API",
+        gitlink: "https://github.com/sambasivareddy-ch/rest_api_go",
+        description: "An Event Management API helps in creating, deleting and updating an event. And supports user registration to the events",
+        skills: ['Go', 'Gin Framework', 'REST API', 'SQLite3'],
+        status: "Completed"
+    },
+    {
         project_name: "Notebook CLI",
         gitlink: "https://github.com/sambasivareddy-ch/notebook_cli",
         description: "A Notes making CLI application return in Go with support of creating, modifying, delete, viewing the notes",
@@ -16,7 +23,7 @@ const projects_arr = [
         project_name: "Social Clubs Event Manager",
         gitlink: "https://github.com/samba-chinta/club_manager",
         description: "A project which helps to integrate all the social clubs in the college & helps in scheduling their events without any conflicts with other club events.",
-        skills: ['React.js', 'Node.js', 'Express.js', 'REST', 'MongoDB'],
+        skills: ['React.js', 'Node.js', 'Express.js', 'REST API', 'MongoDB'],
         status: "Completed"
     },
     {
@@ -25,7 +32,7 @@ const projects_arr = [
             "https://github.com/samba-chinta/question_and_answer_website_client",
         description:
             "A project which helps the students to clear their doubts by posting the doubts in the form of question, and get answers from fellow students.",
-        skills: ["React.js", "Node.js", "Express.js", "REST"],
+        skills: ["React.js", "Node.js", "Express.js", "REST API"],
         status: "Completed",
     },
 ];
