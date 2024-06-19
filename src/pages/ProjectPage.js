@@ -9,7 +9,7 @@ const projects_arr = [
         project_name: "Event Management REST API",
         gitlink: "https://github.com/sambasivareddy-ch/rest_api_go",
         description: "An Event Management API helps in creating, deleting and updating an event. And supports user registration to the events",
-        skills: ['Go', 'Gin Framework', 'REST API', 'SQLite3'],
+        skills: ['Go', 'Gin', 'REST API', 'SQLite3'],
         status: "Completed"
     },
     {
