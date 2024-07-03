@@ -1,18 +1,19 @@
 .intro-wrapper {
-    width: 80%;
-    margin: 60px auto;
-    display: flex;
-    flex-direction: column;
-    gap: 20px 0;
+  width: 80%;
+  margin: 60px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
 }
 
 .welcome-msg {
-    color: #311b92;
-    letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .my-name {
-    font-size: 4em;
+  color: #311b92;
+  font-size: 4em;
+  text-decoration: underline dashed #311b92;
 }
 
 /* .my-name::after {
@@ -22,104 +23,110 @@
 } */
 
 .resume-link {
-    text-decoration: none;
-    color: #311b92;
-    border: solid 1px #311b92;
-    padding: 10px;
-    width: fit-content;
-    border-radius: 5px;
+  text-decoration: none;
+  color: #311b92;
+  border: solid 1px #311b92;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 5px;
 }
 
 .resume-link:hover {
-    background-color: #311b92;
-    color: #000000;
+  background-color: #311b92;
+  color: #fff;
 }
 
 @keyframes blink-animation {
-    to {
-        visibility: hidden;
-    }
+  to {
+    visibility: hidden;
+  }
 }
 
 .tooltip {
-    font-size: 60px;
+  font-size: 60px;
 }
 
 .intro-me {
-    width: 50%;
-    line-height: 32px;
-    color: var(--text-color);
-    font-size: 1em;
+  width: 50%;
+  line-height: 32px;
+  color: var(--text-color);
+  font-size: 1em;
 }
 
-.designation {
-    color: #311b92;
+.highlight {
+  color: #311b92;
+  text-decoration: underline wavy #311b92;
+}
+
+.dashed-highlight {
+  color: #f4511e;
+  text-decoration: underline dashed #f4511e;
 }
 
 .about-div__wrapper {
-    width: 80%;
-    display: flex;
-    margin: 80px auto;
+  width: 80%;
+  display: flex;
+  margin: 80px auto;
 }
 
 .experience-wrapper,
 .edu-wrapper,
 .projects-wrapper,
 .contact-wrapper {
-    width: 80%;
-    margin: 80px auto;
+  width: 80%;
+  margin: 80px auto;
 }
 
 .experience {
-    margin: 15px auto;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.05);
+  margin: 15px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.05);
 }
 
 .experience-title {
-    font-weight: bolder;
-    color: #311b92;
+  font-weight: bolder;
+  color: #311b92;
 }
 
 .company-name {
-    text-decoration: none;
-    color: #311b92;
+  text-decoration: none;
+  color: #311b92;
 }
 
 .exp-duration,
 .company {
-    font-size: 1em;
+  font-size: 1em;
 }
 
 .highlights {
-    width: 95%;
-    margin: 10px 0 auto 10px;
-    font-size: 1em;
-    line-height: 28px;
+  width: 95%;
+  margin: 10px 0 auto 10px;
+  font-size: 1em;
+  line-height: 28px;
 }
 
 .my-img {
-    width: 320px;
-    height: auto;
+  width: 320px;
+  height: auto;
 }
 
 .about-wrapper {
-    margin: 0 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    font-size: 1em;
-    line-height: 32px;
+  margin: 0 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 1em;
+  line-height: 32px;
 }
 
 .title {
-    color: #000000;
-    font-weight: bold;
-    gap: 5px;
-    font-family: sans-serif;
+  color: #000000;
+  font-weight: bold;
+  gap: 5px;
+  font-family: sans-serif;
 }
 
 /* .title::after {
@@ -130,190 +137,190 @@
 } */
 
 .skills-list {
-    display: grid;
-    grid-template-columns: 40% 40%;
-    justify-content: space-around;
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-around;
 }
 
 .table {
-    margin: 20px 0;
-    border-collapse: collapse;
-    width: 90%;
+  margin: 20px 0;
+  border-collapse: collapse;
+  width: 90%;
 }
 
 .table th,
 .table td {
-    border: solid 2px #142343;
-    padding: 10px;
-    text-align: center;
-    font-size: 1em;
-    letter-spacing: 1px;
+  border: solid 2px #142343;
+  padding: 10px;
+  text-align: center;
+  font-size: 1em;
+  letter-spacing: 1px;
 }
 
 .table th {
-    letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .projects-list {
-    margin: 15px auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+  margin: 15px auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .pro-wrapper {
-    width: 280px;
-    padding: 20px;
-    align-content: space-evenly;
-    margin: 5px auto;
-    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.05);
-    box-sizing: border-box;
+  width: 280px;
+  padding: 20px;
+  align-content: space-evenly;
+  margin: 5px auto;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
 }
 
 .project-header {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 0 20px 0;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 20px 0;
+  align-items: center;
 }
 
 .project-header .header-meta {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 14px;
 }
 
 .status {
-    text-transform: uppercase;
-    padding: 5px;
-    border-radius: 5px;
-    color: var(--white-color);
-    font-size: 10px;
+  text-transform: uppercase;
+  padding: 5px;
+  border-radius: 5px;
+  color: var(--white-color);
+  font-size: 10px;
 }
 
 .completed {
-    border: solid 1px var(--green-color);
-    background-color: var(--green-color);
+  border: solid 1px var(--green-color);
+  background-color: var(--green-color);
 }
 
 .in-progress {
-    border: solid 1px var(--charcoal-color);
-    background-color: var(--charcoal-color);
+  border: solid 1px var(--charcoal-color);
+  background-color: var(--charcoal-color);
 }
 
 .project-body h3 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .project-body h3:hover {
-    color: #311b92;
-    cursor: pointer;
+  color: #311b92;
+  cursor: pointer;
 }
 
 .project-body p {
-    font-size: 14px;
-    margin: 10px auto;
+  font-size: 14px;
+  margin: 10px auto;
 }
 
-.project-footer ul{
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
+.project-footer ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .project-footer ul li {
-    width: 50px;
-    background-color:#e3f2fd;
-    padding: 5px;
-    border-radius: 5px;
-    margin: 5px;
-    font-size: 10px;
-    color: #000000;
-    text-align: center;
+  width: 50px;
+  background-color: #e3f2fd;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 10px;
+  color: #000000;
+  text-align: center;
 }
 
 .contact-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
 .contact-title {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .contact-links {
-    display: flex;
-    gap: 20px;
-    list-style: none;
+  display: flex;
+  gap: 20px;
+  list-style: none;
 }
 
 .contact-message {
-    width: 50%;
-    text-align: center;
-    line-height: 28px;
-    font-size: 1em;
+  width: 50%;
+  text-align: center;
+  line-height: 28px;
+  font-size: 1em;
 }
 
 .contact-links li:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .email-link {
-    border: solid 1px #311b92;
-    padding: 10px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 1em;
-    color: #311b92;
+  border: solid 1px #311b92;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1em;
+  color: #311b92;
 }
 
 .email-link:hover {
-    background-color: #311b92;
-    color: #FFF;
+  background-color: #311b92;
+  color: #fff;
 }
 
 .attribution {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .view-more__wrapper {
-    width: 100%;
-    display: grid;
-    place-items: center;
+  width: 100%;
+  display: grid;
+  place-items: center;
 }
 
 .view-more__btn {
-    width: fit-content;
-    outline: none;
-    border: solid 1px #311b92;
-    padding: 15px;
-    border-radius: 5px;
-    background-color: #FFF;
+  width: fit-content;
+  outline: none;
+  border: solid 1px #311b92;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #fff;
 }
 
-.view-more__btn a{
-    text-decoration: none;
-    color: #311b92;
+.view-more__btn a {
+  text-decoration: none;
+  color: #311b92;
 }
 
 .view-more__btn:hover {
-    background-color: #311b92;
+  background-color: #311b92;
 }
 
 .view-more__btn:hover a {
-    color: #FFFFFF;
-    background-color: transparent;
+  color: #ffffff;
+  background-color: transparent;
 }
 
 .project-page__display {
-    box-sizing: border-box;
-    height: fit-content;
-    /* padding: 20px; */
+  box-sizing: border-box;
+  height: fit-content;
+  /* padding: 20px; */
 }
 
 /* @media screen and (max-width: 599px) {
@@ -329,103 +336,104 @@
     
 } */
 @media screen and (max-width: 500px) {
-    .my-name {
-        font-size: 2.5em;
-    }
+  .my-name {
+    font-size: 2.5em;
+  }
 }
 
 @media screen and (min-width: 200px) and (max-width: 1015px) {
-    .about-div__wrapper {
-        width: 98%;
-    }
-    .intro-me {
-        width: 95%;
-    }
-    .experience-wrapper, .projects-wrapper {
-        width: 90%;
-    }
+  .about-div__wrapper {
+    width: 98%;
+  }
+  .intro-me {
+    width: 95%;
+  }
+  .experience-wrapper,
+  .projects-wrapper {
+    width: 90%;
+  }
 
-    .contact-message {
-        width: 80%;
-    }
+  .contact-message {
+    width: 80%;
+  }
 }
 
-@media screen and (min-width: 200px) and (max-width: 828px){
-    .pro-wrapper {
-        width: 100%;
-        height: 350px;
-        grid-template-rows: 10% 60% 20%;
-    }
-    .edu-wrapper table {
-        overflow-x: scroll;
-    }
-    .title::after{
-        width: 100px;
-    }
-    .pro-wrapper {
-        height: fit-content;
-    }
+@media screen and (min-width: 200px) and (max-width: 828px) {
+  .pro-wrapper {
+    width: 100%;
+    height: 350px;
+    grid-template-rows: 10% 60% 20%;
+  }
+  .edu-wrapper table {
+    overflow-x: scroll;
+  }
+  .title::after {
+    width: 100px;
+  }
+  .pro-wrapper {
+    height: fit-content;
+  }
 }
 
 @media screen and (min-width: 200px) and (max-width: 600px) {
-    .about-div__wrapper {
-        display: flex;
-        flex-direction: column;
-    }
-    .my-img {
-        display: block;
-        width: 90%;
-        height: 400px;
-        margin: 10px auto;
-        border-radius: 5px;
-    }
+  .about-div__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .my-img {
+    display: block;
+    width: 90%;
+    height: 400px;
+    margin: 10px auto;
+    border-radius: 5px;
+  }
 }
 
 @media screen and (min-width: 601px) and (max-width: 1015px) {
-    .about-div__wrapper {
-        display: flex;
-        flex-direction: column;
-    }
-    .my-img {
-        display: block;
-        margin: 10px 30px;
-        border-radius: 5px;
-    }
+  .about-div__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .my-img {
+    display: block;
+    margin: 10px 30px;
+    border-radius: 5px;
+  }
 }
 
 @media screen and (min-width: 829px) {
-    .experiences {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
-    }
-    .experience {
-        width: 100%;
-        box-sizing: border-box;
-    }
-    .pro-wrapper {
-        width: 100%;
-        height: 300px;
-        overflow-y: scroll;
-    }
-    ::-webkit-scrollbar {
-        display: none;
-    }
+  .experiences {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .experience {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .pro-wrapper {
+    width: 100%;
+    height: 300px;
+    overflow-y: scroll;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
 }
 
-@media screen and (min-width: 829px) and (max-width: 1015px){
-    .pro-wrapper {
-        width: 100%;
-    }
+@media screen and (min-width: 829px) and (max-width: 1015px) {
+  .pro-wrapper {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 1016px) {
-    .projects-list {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1em;
-    }
-    .pro-wrapper {
-        width: 100%;
-    }
+  .projects-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+  }
+  .pro-wrapper {
+    width: 100%;
+  }
 }
