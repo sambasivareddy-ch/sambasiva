@@ -13,7 +13,6 @@
 .my-name {
   color: #311b92;
   font-size: 4em;
-  text-decoration: underline dashed #311b92;
 }
 
 /* .my-name::after {
