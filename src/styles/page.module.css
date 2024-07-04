@@ -54,12 +54,10 @@
 
 .highlight {
   color: #311b92;
-  text-decoration: underline wavy #311b92;
 }
 
 .dashed-highlight {
   color: #f4511e;
-  text-decoration: underline dashed #f4511e;
 }
 
 .about-div__wrapper {
@@ -71,9 +69,10 @@
 .experience-wrapper,
 .edu-wrapper,
 .projects-wrapper,
-.contact-wrapper {
+.contact-wrapper,
+.skills-wrapper {
   width: 80%;
-  margin: 80px auto;
+  margin: 50px auto;
 }
 
 .experience {
@@ -123,9 +122,8 @@
 
 .title {
   color: #000000;
-  font-weight: bold;
   gap: 5px;
-  font-family: sans-serif;
+  margin: 0 0 10px;
 }
 
 /* .title::after {
@@ -135,10 +133,28 @@
     margin: 0 10px;
 } */
 
-.skills-list {
+/* .skills-list {
   display: grid;
   grid-template-columns: 40% 40%;
   justify-content: space-around;
+} */
+
+.skills-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill {
+  font-size: 14px;
+  /* background: rgba(49, 27, 146, 0.32); */
+  border-radius: 5px;
+  /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+  backdrop-filter: blur(0.1px);
+  -webkit-backdrop-filter: blur(0.1px);
+  padding: 5px 10px;
+  border: solid 0.5px #eee;
 }
 
 .table {
@@ -173,8 +189,9 @@
   padding: 20px;
   align-content: space-evenly;
   margin: 5px auto;
-  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.05);
+  /* box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.05); */
   box-sizing: border-box;
+  border: solid 0.5px #eee;
 }
 
 .project-header {
@@ -232,13 +249,16 @@
 
 .project-footer ul li {
   width: 50px;
-  background-color: #e3f2fd;
   padding: 5px;
   border-radius: 5px;
   margin: 5px;
   font-size: 10px;
-  color: #000000;
+  color: #fff;
   text-align: center;
+  background: rgba(49, 27, 146, 0.54);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0.1px);
 }
 
 .contact-wrapper {
@@ -322,6 +342,16 @@
   /* padding: 20px; */
 }
 
+.github-link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.github-link:hover {
+  transform: scale(0.96);
+}
+
 /* @media screen and (max-width: 599px) {
     .my-img {
         display: none;
@@ -349,7 +379,7 @@
   }
   .experience-wrapper,
   .projects-wrapper {
-    width: 90%;
+    width: 80%;
   }
 
   .contact-message {

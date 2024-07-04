@@ -6,17 +6,17 @@ import resume from "../assests/samba_resume.pdf";
 const Intro = () => {
   return (
     <div className={styles["intro-wrapper"]}>
-      <p className={styles["welcome-msg"]}>Hi, my name is</p>
+      <p className={styles["welcome-msg"]}>Namaste! Good Day. My name is</p>
       <h1 className={styles["my-name"]}>Samba Siva Reddy</h1>
       <p className={styles["intro-me"]}>
-        I'm working as{" "}
-        <span className={styles["highlight"]}>Software Developer (MTS)</span> in
-        Zoho Corporation. I am a{" "}
+        I am working as{" "}
+        <span className={styles["highlight"]}>Member of Technical Staff</span>{" "}
+        in Zoho Corporation. I am a{" "}
         <span className={styles["dashed-highlight"]}>
           Full Stack Web Developer
         </span>{" "}
-        based on MERN stack. I am currently working on building CLI Applications
-        & Web servers using Go.
+        based on MERN stack. And have some knowledge in writing server code
+        using <b>Golang</b> and <b>Dockerization</b>
         <br />
       </p>
       <a
@@ -24,6 +24,7 @@ const Intro = () => {
         alt="resume"
         className={styles["resume-link"]}
         target="_blank"
+        rel="noreferrer"
       >
         Resume
       </a>
