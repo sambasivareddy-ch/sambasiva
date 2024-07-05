@@ -20,7 +20,7 @@ const Intro = () => {
         <br />
       </p>
       <a
-        href="https://drive.google.com/file/d/1NBU-rR74c9QTxOnF5u5cRcAZNQYeIBpS/view?usp=drive_link"
+        href="https://drive.google.com/file/d/1NBU-rR74c9QTxOnF5u5cRcAZNQYeIBpS/view?usp=sharing"
         alt="resume"
         className={styles["resume-link"]}
         target="_blank"
