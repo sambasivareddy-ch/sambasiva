@@ -4,9 +4,9 @@ import Navigation from "../components/Navigation";
 import Intro from "../components/Intro";
 // import About from "../components/About";
 import Skills from "../components/Skills";
-import Experience from "../components/Experience";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
+import Experiences from "../components/Experiences";
 
 const Main = () => {
   return (
@@ -15,7 +15,7 @@ const Main = () => {
       <Intro />
       {/* <About /> */}
       <Skills />
-      <Experience />
+      <Experiences />
       <Projects />
       <Contact />
     </div>

@@ -4,7 +4,7 @@ import styles from "../styles/page.module.css";
 
 const Skills = (props) => {
   return (
-    <div className={styles["skills-wrapper"]}>
+    <div className={styles["skills-wrapper"]} id="skills">
       <h2 className={styles["title"]}>Skills</h2>
       <ol className={styles["skills-list"]}>
         <li className={styles["skill"]}>C language</li>

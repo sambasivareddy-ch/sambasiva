@@ -10,6 +10,10 @@
   letter-spacing: 1px;
 }
 
+.wishes {
+  text-decoration: underline wavy;
+}
+
 .my-name {
   color: #311b92;
   font-size: 4em;
@@ -104,6 +108,36 @@
   margin: 10px 0 auto 10px;
   font-size: 1em;
   line-height: 28px;
+}
+
+.new-experience-wrapper {
+  display: grid;
+  grid-template-columns: 30% 60%;
+  justify-content: space-around;
+  padding: 10px;
+  border-bottom: solid 1px #eee;
+}
+
+.experience-period {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.experience-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.experience-highlights {
+  margin: 0 0 0 15px;
+  font-size: 1em;
+}
+
+.experience-skills {
+  list-style: none;
+  display: flex;
 }
 
 .my-img {
@@ -247,16 +281,16 @@
   flex-wrap: wrap;
 }
 
-.project-footer ul li {
-  width: 50px;
+.project-footer ul li,
+.experience-skills li {
+  /* width: 50px; */
   padding: 5px;
   border-radius: 5px;
   margin: 5px;
-  font-size: 10px;
+  font-size: 12px;
   color: #fff;
   text-align: center;
   background: rgba(49, 27, 146, 0.54);
-  border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(0.1px);
 }
@@ -378,12 +412,23 @@
     width: 95%;
   }
   .experience-wrapper,
-  .projects-wrapper {
-    width: 80%;
+  .projects-wrapper,
+  .intro-wrapper,
+  .skills-wrapper {
+    width: 90%;
   }
 
   .contact-message {
     width: 80%;
+  }
+
+  .new-experience-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .experience-period {
+    justify-content: flex-start;
   }
 }
 
@@ -431,11 +476,6 @@
 }
 
 @media screen and (min-width: 829px) {
-  .experiences {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-  }
   .experience {
     width: 100%;
     box-sizing: border-box;
