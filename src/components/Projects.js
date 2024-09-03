@@ -5,6 +5,14 @@ import Project from "./Project";
 
 const projects_arr = [
     {
+        project_name: "Meeting Notes",
+        gitlink: "https://github.com/sambasivareddy-ch/meeting_notes_app",
+        description:
+            "An Application which helps to take notes on various scheduled meeting in your google calender.",
+        skills: ["React.js", "Go", "REST", "PostgreSQL", "Redis", "Gin"],
+        status: "In Progress",
+    },
+    {
         project_name: "Event Management REST API",
         gitlink: "https://github.com/sambasivareddy-ch/rest_api_go",
         description: "An Event Management API helps in creating, deleting and updating an event. And supports user registration to the events",
@@ -17,14 +25,6 @@ const projects_arr = [
         description: "A Notes making CLI application return in Go with support of creating, modifying, delete, viewing the notes",
         skills: ['Go', 'CLI', 'Cobra', 'PromptUI', 'SQLite3'],
         status: "Completed"
-    },
-    {
-        project_name: "Social Clubs Event Manager",
-        gitlink: "https://github.com/samba-chinta/club_manager",
-        description:
-            "A project which helps to integrate all the social clubs in the college & helps in scheduling their events without any conflicts with other club events.",
-        skills: ["React.js", "Node.js", "Express.js", "REST", "MongoDB"],
-        status: "Completed",
     }
 ];
 

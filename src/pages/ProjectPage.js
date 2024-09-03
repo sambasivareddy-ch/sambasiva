@@ -6,6 +6,14 @@ import KeyboardBackspaceIcon from "@mui/icons-material/KeyboardBackspace";
 
 const projects_arr = [
     {
+        project_name: "Meeting Notes",
+        gitlink: "https://github.com/sambasivareddy-ch/meeting_notes_app",
+        description:
+            "An Application which helps to take notes on various scheduled meeting in your google calender.",
+        skills: ["React.js", "Go", "REST", "PostgreSQL", "Redis", "Gin"],
+        status: "In Progress",
+    },
+    {
         project_name: "Event Management REST API",
         gitlink: "https://github.com/sambasivareddy-ch/rest_api_go",
         description: "An Event Management API helps in creating, deleting and updating an event. And supports user registration to the events",

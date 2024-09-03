@@ -18,7 +18,7 @@ const Project = (props) => {
             className={styles["github-link"]}
           >
             {/* <GitHubIcon fontSize="medium" /> */}
-            <span>Github</span>
+            <span>{props.project_details.status === "Completed"? "Github": "In Progress"}</span>
             <ArrowOutwardIcon />
           </a>
         </div>
