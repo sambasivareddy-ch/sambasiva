@@ -14,7 +14,7 @@ const projects_arr = [
         status: "In Progress",
     },
     {
-        project_name: "Examination Planner for Education Institutes",
+        project_name: "Examination Planner for Edu Institutes",
         gitlink: "https://github.com/sambasivareddy-ch/exam_planner",
         description: "A Exam Planner which helps the education institutes to schedule/plan their examinations and students/invigilators can get their schedule",
         skills: ['React.JS', 'PostgreSQL', 'Node.JS', 'Express', 'Client-Server'],
