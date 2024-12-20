@@ -20,10 +20,10 @@ const projects_arr = [
         status: "Completed"
     },
     {
-        project_name: "Notebook CLI",
-        gitlink: "https://github.com/sambasivareddy-ch/notebook_cli",
-        description: "A Notes making CLI application return in Go with support of creating, modifying, delete, viewing the notes",
-        skills: ['Go', 'CLI', 'Cobra', 'PromptUI', 'SQLite3'],
+        project_name: "Examination Planner for Education Institutes",
+        gitlink: "https://github.com/sambasivareddy-ch/exam_planner",
+        description: "A Exam Planner which helps the education institutes to schedule/plan their examinations and students/invigilators can get their schedule",
+        skills: ['React.JS', 'PostgreSQL', 'Node.JS', 'Express', 'Client-Server'],
         status: "Completed"
     }
 ];
