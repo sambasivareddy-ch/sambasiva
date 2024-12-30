@@ -15,7 +15,7 @@ const experiences = [
       "Working with R&D team on developing Distributed Database environment based on PostgreSQL.",
       "Enhancing the existing Planner for faster retrieval of results from the targeted machines by replacing existing file transfer library.",
     ],
-    skills: ["C++", "PostgreSQL", "C", "DBMS"],
+    skills: ["C++", "Postgres", "C", "DBMS"],
   },
 ];
 

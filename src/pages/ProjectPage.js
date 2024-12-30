@@ -10,14 +10,14 @@ const projects_arr = [
         gitlink: "https://github.com/sambasivareddy-ch/meeting_notes_app",
         description:
             "An Application which helps to take notes on various scheduled meeting in your google calender.",
-        skills: ["React.js", "Go", "REST", "PostgreSQL", "Redis", "Gin"],
+        skills: ["React.js", "Go", "REST", "Postgres", "Redis", "Gin"],
         status: "In Progress",
     },
     {
         project_name: "Examination Planner for Edu Institutes",
         gitlink: "https://github.com/sambasivareddy-ch/exam_planner",
         description: "A Exam Planner which helps the education institutes to schedule/plan their examinations and students/invigilators can get their schedule",
-        skills: ['React.JS', 'PostgreSQL', 'Node.JS', 'Express', 'Docker'],
+        skills: ['React.JS', 'Postgres', 'Node.JS', 'Express', 'Docker'],
         status: "Completed"
     },
     {

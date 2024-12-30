@@ -12,6 +12,7 @@ const Main = () => {
   return (
     <div className={styles["app"]}>
       <Navigation />
+      <hr/>
       <Intro />
       {/* <About /> */}
       <Skills />

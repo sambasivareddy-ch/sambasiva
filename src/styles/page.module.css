@@ -10,12 +10,12 @@
   letter-spacing: 1px;
 }
 
-.wishes {
-  text-decoration: underline wavy;
-}
+/* .wishes { */
+  /* text-decoration: underline wavy; */
+/* } */
 
 .my-name {
-  color: #311b92;
+  /* color: #311b92; */
   font-size: 4em;
 }
 
@@ -27,15 +27,15 @@
 
 .resume-link {
   text-decoration: none;
-  color: #311b92;
-  border: solid 1px #311b92;
+  color: #000;
+  border: solid 1px #000;
   padding: 10px;
   width: fit-content;
   border-radius: 5px;
 }
 
 .resume-link:hover {
-  background-color: #311b92;
+  background-color: #000;
   color: #fff;
 }
 
@@ -56,9 +56,9 @@
   font-size: 1em;
 }
 
-.highlight {
+/* .highlight {
   color: #311b92;
-}
+} */
 
 .dashed-highlight {
   color: #f4511e;
@@ -111,17 +111,15 @@
 }
 
 .new-experience-wrapper {
-  display: grid;
-  grid-template-columns: 30% 60%;
-  justify-content: space-around;
+  /* display: grid;
+  grid-template-columns: 30% 60%; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
   padding: 10px;
   border-bottom: solid 1px #eee;
-}
-
-.experience-period {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
+  gap: 10px;
 }
 
 .experience-details {
@@ -158,6 +156,7 @@
   color: #000000;
   gap: 5px;
   margin: 0 0 10px;
+  text-decoration: underline;
 }
 
 /* .title::after {
@@ -220,10 +219,12 @@
 
 .pro-wrapper {
   width: 280px;
+  height: fit-content;
+  display: grid;
+  grid-template-rows: 20% 50% 30%;
   padding: 20px;
-  align-content: space-evenly;
+  align-content: space-between;
   margin: 5px auto;
-  /* box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.05); */
   box-sizing: border-box;
   border: solid 0.5px #eee;
 }
@@ -283,16 +284,24 @@
 
 .project-footer ul li,
 .experience-skills li {
-  /* width: 50px; */
+  width: 60px;
   padding: 5px;
   border-radius: 5px;
   margin: 5px;
   font-size: 12px;
-  color: #fff;
+  color: #000;
   text-align: center;
-  background: rgba(49, 27, 146, 0.54);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  background: #eee;
   backdrop-filter: blur(0.1px);
+  overflow-x: scroll;
+}
+
+.experience-period {
+  color: #e1e1e1;
+}
+
+.highlight_exp {
+  color: #311b92;
 }
 
 .contact-wrapper {
@@ -324,16 +333,16 @@
 }
 
 .email-link {
-  border: solid 1px #311b92;
+  border: solid 1px #000;
   padding: 10px;
   border-radius: 5px;
   text-decoration: none;
   font-size: 1em;
-  color: #311b92;
+  color: #000;
 }
 
 .email-link:hover {
-  background-color: #311b92;
+  background-color: #000;
   color: #fff;
 }
 
@@ -350,7 +359,7 @@
 .view-more__btn {
   width: fit-content;
   outline: none;
-  border: solid 1px #311b92;
+  border: solid 1px #000;
   padding: 15px;
   border-radius: 5px;
   background-color: #fff;
@@ -358,11 +367,11 @@
 
 .view-more__btn a {
   text-decoration: none;
-  color: #311b92;
+  color: #000;
 }
 
 .view-more__btn:hover {
-  background-color: #311b92;
+  background-color: #000;
 }
 
 .view-more__btn:hover a {

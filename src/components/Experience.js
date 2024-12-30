@@ -9,7 +9,7 @@ const Experience = (props) => {
         <p>{props.exp.period}</p>
       </div>
       <div className={styles["experience-details"]}>
-        <h3 className={styles["highlight"]}>{props.exp.designation}</h3>
+        <h3 className={styles["highlight_exp"]}>{props.exp.designation}</h3>
         {props.exp.prevDesignation && (
           <p>
             {props.exp.prevDesignation} | {props.exp.prevDesignationPeriod}
