@@ -25,12 +25,12 @@ const Experience = (props) => {
         </a>
         <ol className={styles["experience-highlights"]}>
           {props.exp.highlights.map((highlight) => (
-            <li>{highlight}</li>
+            <li key={Math.random()}>{highlight}</li>
           ))}
         </ol>
         <ol className={styles["experience-skills"]}>
           {props.exp.skills.map((skill) => (
-            <li>{skill}</li>
+            <li key={Math.random()}>{skill}</li>
           ))}
         </ol>
       </div>
