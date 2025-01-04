@@ -21,7 +21,7 @@ const Intro = () => {
         <br />
       </p>
       <a
-        href="https://drive.google.com/file/d/1Gv5k6rQstvdEo3JnsbnJl65EY7f7nome/view?usp=sharing"
+        href="https://drive.google.com/file/d/1khukl7xHTkDGm1kQdoAgyI6e9HfvcnkO/view?usp=sharing"
         alt="resume"
         className={styles["resume-link"]}
         target="_blank"
