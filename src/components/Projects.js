@@ -6,11 +6,11 @@ import Project from "./Project";
 const projects_arr = [
     {
         project_name: "Meeting Notes",
-        gitlink: "https://github.com/sambasivareddy-ch/meeting_notes_app",
+        gitlink: "https://github.com/sambasivareddy-ch/meeting_notes",
         description:
             "An Application which helps to take notes on various scheduled meeting in your google calender.",
         skills: ["React.js", "Go", "REST", "Postgres", "Redis", "Gin"],
-        status: "In Progress",
+        status: "Completed",
     },
     {
         project_name: "Event Management REST API",

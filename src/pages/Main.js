@@ -6,7 +6,7 @@ import Intro from "../components/Intro";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
-import Experiences from "../components/Experiences";
+// import Experiences from "../components/Experiences";
 
 const Main = () => {
   return (
@@ -16,7 +16,7 @@ const Main = () => {
       <Intro />
       {/* <About /> */}
       <Skills />
-      <Experiences />
+      {/* <Experiences /> */}
       <Projects />
       <Contact />
     </div>
