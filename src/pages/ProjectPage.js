@@ -6,6 +6,14 @@ import KeyboardBackspaceIcon from "@mui/icons-material/KeyboardBackspace";
 
 const projects_arr = [
     {
+        project_name: "Database Backup Utility",
+        gitlink: "https://github.com/sambasivareddy-ch/db_backup_utility",
+        description:
+            "An CLI tool which helps to perform Backup, restore on database likes Postgres, SQL and also helps to automate the backup job",
+        skills: ["Go", "Cobra", "CLI"],
+        status: "Completed",
+    },
+    {
         project_name: "Meeting Notes",
         gitlink: "https://github.com/sambasivareddy-ch/meeting_notes",
         description:

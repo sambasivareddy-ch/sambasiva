@@ -5,6 +5,14 @@ import Project from "./Project";
 
 const projects_arr = [
     {
+        project_name: "Database Backup Utility",
+        gitlink: "https://github.com/sambasivareddy-ch/db_backup_utility",
+        description:
+            "An CLI tool which helps to perform Backup, restore on database likes Postgres, SQL and also helps to automate the backup job",
+        skills: ["Go", "Cobra", "CLI"],
+        status: "Completed",
+    },
+    {
         project_name: "Meeting Notes",
         gitlink: "https://github.com/sambasivareddy-ch/meeting_notes",
         description:
@@ -19,19 +27,12 @@ const projects_arr = [
         skills: ['Go', 'Gin ', 'REST API', 'SQLite3'],
         status: "Completed"
     },
-    {
-        project_name: "Exam Planner for Edu Institutes",
-        gitlink: "https://github.com/sambasivareddy-ch/exam_planner",
-        description: "A Exam Planner which helps the education institutes to schedule/plan their examinations and students/invigilators can get their schedule",
-        skills: ['React.JS', 'Postgres', 'Node.JS', 'Express', 'Docker'],
-        status: "Completed"
-    }
 ];
 
 const Projects = () => {
     return (
         <div className={styles["projects-wrapper"]} id="projects">
-            <h2 className={styles["title"]}>My Projects</h2>
+            <h2 className={styles["title"]}>Top Projects</h2>
             <div className={styles["projects-list"]}>
                 {projects_arr.map((pro) => {
                     return (
