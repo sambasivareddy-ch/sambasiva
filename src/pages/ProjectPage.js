@@ -7,7 +7,7 @@ import KeyboardBackspaceIcon from "@mui/icons-material/KeyboardBackspace";
 const projects_arr = [
     {
         project_name: "Database Backup Utility",
-        link: "https://github.com/sambasivareddy-ch/db_backup_utility/actions/runs/14421575855",
+        link: "https://github.com/sambasivareddy-ch/db_backup_utility/releases/tag/v1.0.0",
         gitlink: "https://github.com/sambasivareddy-ch/db_backup_utility",
         description:
             "An CLI tool which helps to perform Backup, restore on database likes Postgres, SQL and also helps to automate the backup job",
