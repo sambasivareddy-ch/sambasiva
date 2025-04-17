@@ -7,6 +7,7 @@ import KeyboardBackspaceIcon from "@mui/icons-material/KeyboardBackspace";
 const projects_arr = [
     {
         project_name: "Database Backup Utility",
+        link: "https://github.com/sambasivareddy-ch/db_backup_utility/actions/runs/14421575855",
         gitlink: "https://github.com/sambasivareddy-ch/db_backup_utility",
         description:
             "An CLI tool which helps to perform Backup, restore on database likes Postgres, SQL and also helps to automate the backup job",
@@ -15,6 +16,7 @@ const projects_arr = [
     },
     {
         project_name: "Meeting Notes",
+        link: "https://meeting-notes-phi.vercel.app/",
         gitlink: "https://github.com/sambasivareddy-ch/meeting_notes",
         description:
             "An Application which helps to take notes on various scheduled meeting in your google calender.",
@@ -23,6 +25,7 @@ const projects_arr = [
     },
     {
         project_name: "Examination Planner for Edu Institutes",
+        link: "",
         gitlink: "https://github.com/sambasivareddy-ch/exam_planner",
         description: "A Exam Planner which helps the education institutes to schedule/plan their examinations and students/invigilators can get their schedule",
         skills: ['React.JS', 'Postgres', 'Node.JS', 'Express', 'Docker'],
@@ -30,6 +33,7 @@ const projects_arr = [
     },
     {
         project_name: "Event Management REST API",
+        link: "",
         gitlink: "https://github.com/sambasivareddy-ch/rest_api_go",
         description: "An Event Management API helps in creating, deleting and updating an event. And supports user registration to the events",
         skills: ['Go', 'Gin', 'REST API', 'SQLite3'],
@@ -37,6 +41,7 @@ const projects_arr = [
     },
     {
         project_name: "Notebook CLI",
+        link: "",
         gitlink: "https://github.com/sambasivareddy-ch/notebook_cli",
         description: "A Notes making CLI application return in Go with support of creating, modifying, delete, viewing the notes",
         skills: ['Go', 'CLI', 'Cobra', 'PromptUI', 'SQLite3'],
@@ -44,6 +49,7 @@ const projects_arr = [
     },
     {
         project_name: "Social Clubs Event Manager",
+        link: "",
         gitlink: "https://github.com/samba-chinta/club_manager",
         description: "A project which helps to integrate all the social clubs in the college & helps in scheduling their events without any conflicts with other club events.",
         skills: ['React.js', 'Node.js', 'Express.js', 'REST API', 'MongoDB'],
@@ -51,6 +57,7 @@ const projects_arr = [
     },
     {
         project_name: "Query based Application",
+        link: "",
         gitlink:
             "https://github.com/samba-chinta/question_and_answer_website_client",
         description:

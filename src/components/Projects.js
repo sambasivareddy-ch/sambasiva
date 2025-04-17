@@ -6,6 +6,7 @@ import Project from "./Project";
 const projects_arr = [
     {
         project_name: "Database Backup Utility",
+        link: "https://github.com/sambasivareddy-ch/db_backup_utility/actions/runs/14421575855",
         gitlink: "https://github.com/sambasivareddy-ch/db_backup_utility",
         description:
             "An CLI tool which helps to perform Backup, restore on database likes Postgres, SQL and also helps to automate the backup job",
@@ -14,6 +15,7 @@ const projects_arr = [
     },
     {
         project_name: "Meeting Notes",
+        link: "https://meeting-notes-phi.vercel.app/",
         gitlink: "https://github.com/sambasivareddy-ch/meeting_notes",
         description:
             "An Application which helps to take notes on various scheduled meeting in your google calender.",
@@ -22,6 +24,7 @@ const projects_arr = [
     },
     {
         project_name: "Event Management REST API",
+        link: "",
         gitlink: "https://github.com/sambasivareddy-ch/rest_api_go",
         description: "An Event Management API helps in creating, deleting and updating an event. And supports user registration to the events",
         skills: ['Go', 'Gin ', 'REST API', 'SQLite3'],
