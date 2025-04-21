@@ -47,11 +47,6 @@ const Projects = () => {
                     );
                 })}
             </div>
-            <div className={styles["view-more__wrapper"]}>
-                <button className={styles["view-more__btn"]}>
-                    <Link to="/projects">View More</Link>
-                </button>
-            </div>
         </div>
     );
 };

@@ -39,12 +39,12 @@ const Navigation = () => {
                             Education
                         </a>
                     </li> */}
-          <li>
+          {/* <li>
             <a className={styles["nav-link"]} href="#experience">
               <span className={styles["list-number"]}>02.</span>
               Experience
             </a>
-          </li>
+          </li> */}
           <li>
             <a className={styles["nav-link"]} href="#projects">
               <span className={styles["list-number"]}>03.</span>
