@@ -47,13 +47,13 @@ const Navigation = () => {
           </li> */}
           <li>
             <a className={styles["nav-link"]} href="#projects">
-              <span className={styles["list-number"]}>03.</span>
+              <span className={styles["list-number"]}>02.</span>
               Projects
             </a>
           </li>
           <li>
             <a className={styles["nav-link"]} href="#contact">
-              <span className={styles["list-number"]}>04.</span>
+              <span className={styles["list-number"]}>03.</span>
               Contact
             </a>
           </li>
