@@ -21,13 +21,13 @@ const Intro = () => {
         <br />
       </p>
       <a
-        href="https://drive.google.com/file/d/1khukl7xHTkDGm1kQdoAgyI6e9HfvcnkO/view?usp=sharing"
+        href="https://www.linkedin.com/in/samba-siva-reddy-ch/"
         alt="resume"
         className={styles["resume-link"]}
         target="_blank"
         rel="noreferrer"
       >
-        Resume
+        LinkedIn
       </a>
     </div>
   );
