@@ -5,6 +5,15 @@ import Project from "./Project";
 
 const projects_arr = [
     {
+        project_name: "E-Commerce SPA",
+        link: "https://e-commerce-spa-kappa.vercel.app/",
+        gitlink: "https://github.com/sambasivareddy-ch/e-commerce_spa",
+        description:
+            "A Single Page E-Commerce Application which allows the users perform adding products to cart, wishlist and checkout the products. (Currenly It's static one with some statically generated data)",
+        skills: ["React.Js", "TypeScript", "Redux", "React Router"],
+        status: "Completed",
+    },
+    {
         project_name: "Database Backup Utility",
         link: "https://github.com/sambasivareddy-ch/db_backup_utility/releases/tag/v1.0.0",
         gitlink: "https://github.com/sambasivareddy-ch/db_backup_utility",
