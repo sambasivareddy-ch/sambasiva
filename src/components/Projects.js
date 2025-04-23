@@ -10,7 +10,7 @@ const projects_arr = [
         gitlink: "https://github.com/sambasivareddy-ch/e-commerce_spa",
         description:
             "A Single Page E-Commerce Application which allows the users perform adding products to cart, wishlist and checkout the products. (Currenly It's static one with some statically generated data)",
-        skills: ["React.Js", "TypeScript", "Redux", "React Router"],
+        skills: ["React", "TypeScript", "Redux", "Router-Dom"],
         status: "Completed",
     },
     {
