@@ -5,12 +5,12 @@ import Project from "./Project";
 
 const projects_arr = [
     {
-        project_name: "E-Commerce SPA",
-        link: "https://e-commerce-spa-kappa.vercel.app/",
-        gitlink: "https://github.com/sambasivareddy-ch/e-commerce_spa",
+        project_name: "NextBuy",
+        link: "https://nextbuy-five.vercel.app/",
+        gitlink: "https://github.com/sambasivareddy-ch/nextbuy",
         description:
             "A Single Page E-Commerce Application which allows the users perform adding products to cart, wishlist and checkout the products. (Currenly It's static one with some statically generated data)",
-        skills: ["React", "TypeScript", "Redux", "Router-Dom"],
+        skills: ["React", "TypeScript", "Redux", "Router", "MockApI"],
         status: "Completed",
     },
     {
