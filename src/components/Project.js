@@ -35,7 +35,13 @@ const Project = (props) => {
         </div>
       </div>
       <div className={styles["project-body"]}>
-        <h3>{props.project_details.project_name}</h3>
+        <h3>
+          <a 
+            href={props.project_details.gitlink}
+            target="_blank"
+            rel="noreferrer"
+          >{props.project_details.project_name}</a>
+        </h3>
         <p>{props.project_details.description}</p>
       </div>
       <div className={styles["project-footer"]}>

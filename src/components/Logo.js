@@ -5,7 +5,7 @@ import styles from "../styles/logo.module.css";
 const Logo = () => {
     return (
         <div className={styles['logo-wrapper']}>
-            <Link className={styles['logo-letter']} to="/">Ssr</Link>
+            <Link className={styles['logo-letter']} to="/">Samba Siva</Link>
         </div>
     )
 }

@@ -28,15 +28,16 @@
 .resume-link {
   text-decoration: none;
   color: #000;
-  border: solid 1px #000;
+  border: solid 1px #00e676;
   padding: 10px;
   width: fit-content;
   border-radius: 5px;
+  background-color: #00e676;
 }
 
 .resume-link:hover {
-  background-color: #000;
-  color: #fff;
+  background-color: transparent;
+  color: #00e676;
 }
 
 @keyframes blink-animation {
@@ -153,10 +154,9 @@
 }
 
 .title {
-  color: #000000;
+  color: #FFF;
   gap: 5px;
   margin: 0 0 10px;
-  text-decoration: underline;
 }
 
 /* .title::after {
@@ -176,18 +176,21 @@
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
 }
 
 .skill {
   font-size: 14px;
-  /* background: rgba(49, 27, 146, 0.32); */
   border-radius: 5px;
-  /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
-  backdrop-filter: blur(0.1px);
-  -webkit-backdrop-filter: blur(0.1px);
-  padding: 5px 10px;
-  border: solid 0.5px #eee;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+  justify-content: center;
+}
+
+.skill img {
+  width: 80px;
 }
 
 .table {
@@ -226,7 +229,8 @@
   align-content: space-between;
   margin: 5px auto;
   box-sizing: border-box;
-  border: solid 0.5px #eee;
+  border: solid 0.5px rgba(42, 51, 70, 0.03);
+  box-shadow: rgba(14, 63, 126, 0.06) 0px 0px 0px 1px, rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 2px 2px -1px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.03) 0px 5px 5px -2.5px, rgba(42, 51, 70, 0.03) 0px 10px 10px -5px, rgba(42, 51, 70, 0.03) 0px 24px 24px -8px;
 }
 
 .project-header {
@@ -270,8 +274,13 @@
   font-size: 20px;
 }
 
-.project-body h3:hover {
-  color: #311b92;
+.project-body h3 a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.project-body h3 a:hover {
+  color: #84fab0;
   cursor: pointer;
 }
 
@@ -288,14 +297,14 @@
 
 .project-footer ul li,
 .experience-skills li {
-  width: 60px;
-  padding: 5px;
-  border-radius: 5px;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 5pc;
   margin: 5px;
   font-size: 12px;
   color: #000;
   text-align: center;
-  background: #eee;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
   backdrop-filter: blur(0.1px);
   overflow-x: scroll;
 }
@@ -337,17 +346,16 @@
 }
 
 .email-link {
-  border: solid 1px #000;
+  border: solid 1px #fff;
   padding: 10px;
   border-radius: 5px;
   text-decoration: none;
   font-size: 1em;
-  color: #000;
+  color: #fff;
 }
 
 .email-link:hover {
-  background-color: #000;
-  color: #fff;
+  transform: scale(0.96);
 }
 
 .attribution {
@@ -460,6 +468,12 @@
   .pro-wrapper {
     height: fit-content;
   }
+  .skill {
+    font-size: 12px;
+  }
+  .skill img {
+    width: 60px;
+  }
 }
 
 @media screen and (min-width: 200px) and (max-width: 600px) {
@@ -473,6 +487,12 @@
     height: 400px;
     margin: 10px auto;
     border-radius: 5px;
+  }
+  .skill {
+    font-size: 10px;
+  }
+  .skill img {
+    width: 50px;
   }
 }
 
