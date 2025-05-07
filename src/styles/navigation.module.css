@@ -18,10 +18,10 @@
 }
 
 .nav-link {
-    color: #000;
+    color: #FFF;
     text-decoration: none;
     letter-spacing: 1px;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .list-number {
@@ -30,7 +30,7 @@
 }
 
 .nav-link:hover {
-    color: #311b92;
+    text-decoration: underline;
 }
 
 .menu-icon {
