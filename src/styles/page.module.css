@@ -225,7 +225,7 @@
   height: fit-content;
   display: grid;
   grid-template-rows: 20% 50% 30%;
-  padding: 20px;
+  padding: 20px 30px;
   align-content: space-between;
   margin: 5px auto;
   box-sizing: border-box;

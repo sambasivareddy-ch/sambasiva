@@ -59,15 +59,7 @@ const Contact = () => {
       </ul>
       <p className={styles["attribution"]}>
         Get Inspiration from Brittany Chiang
-        {/* <a
-                    href="https://brittanychiang.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    Brittany Chiang
-                </a> */}
       </p>
-      <p className={styles["attribution"]}>Designed & Built by Siva Chinta</p>
     </div>
   );
 };
