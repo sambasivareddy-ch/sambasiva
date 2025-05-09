@@ -7,9 +7,9 @@ const Intro = () => {
   return (
     <div className={styles["intro-wrapper"]}>
       <p className={styles["welcome-msg"]}>
-        <span className={styles["wishes"]}>Namaste! Good Day.</span> My name is
+        <span className={styles["wishes"]}>Namaste! I'm <b>Samba Siva Reddy</b>.</span> 
       </p>
-      <h1 className={styles["my-name"]}>Samba Siva Reddy</h1>
+      <h1 className={styles["my-name"]}>Full-stack Engineer</h1>
       <p className={styles["intro-me"]}>
         Currently, I am working as{" "}
         <span className={styles["highlight"]}>Member of Technical Staff</span>{" "}
