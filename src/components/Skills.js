@@ -5,6 +5,7 @@ import styles from "../styles/page.module.css";
 const Skills = (props) => {
   return (
     <div className={styles["skills-wrapper"]} id="skills">
+      <p className={styles['caption']}>Skill I possess</p>
       <h2 className={styles["title"]}>Skills</h2>
       <ol className={styles["skills-list"]}>
         <li className={styles["skill"]}>

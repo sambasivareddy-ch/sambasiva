@@ -11,14 +11,10 @@ const Intro = () => {
       </p>
       <h1 className={styles["my-name"]}>Full-stack Engineer</h1>
       <p className={styles["intro-me"]}>
-        Currently, I am working as{" "}
-        <span className={styles["highlight"]}>Member of Technical Staff</span>{" "}
-        in Zoho Corporation. I am a{" "}
-        <span className={styles["highlight"]}>Full Stack Web Developer</span>{" "}
-        based on <b>MERN</b> stack and had good hands-on experience while
-        building web applications using this stack. And have some knowledge in
-        writing server code using <b>Golang</b> and <b>Dockerization</b>
-        <br />
+        <p className={styles["about-me"]}>
+          I am a Full Stack Web Developer with a strong focus on building efficient and scalable web applications. With a passion for clean architecture and maintainable code, I specialize in the <span className={styles["highlight"]}>MERN stack (MongoDB, Express.js, React.js, Node.js)</span>  and possess additional backend experience in <span className={styles["highlight"]}>Go (Golang) and containerization using Docker.</span><br/><br/>
+          Currently, I serve as a Member of Technical Staff at Zoho Corporation, where I contribute to developing robust distributed system on the top of PostgreSQL.
+        </p>
       </p>
       <a
         href="https://www.linkedin.com/in/samba-siva-reddy-ch/"

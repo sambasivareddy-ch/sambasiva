@@ -57,9 +57,9 @@ const Contact = () => {
           </a>
         </li>
       </ul>
-      <p className={styles["attribution"]}>
+      {/* <p className={styles["attribution"]}>
         Get Inspiration from Brittany Chiang
-      </p>
+      </p> */}
     </div>
   );
 };

@@ -44,7 +44,8 @@ const projects_arr = [
 const Projects = () => {
     return (
         <div className={styles["projects-wrapper"]} id="projects">
-            <h2 className={styles["title"]}>Top Projects</h2>
+            <p className={styles['caption']}>Things I Built</p>
+            <h2 className={styles["title"]}>My Projects</h2>
             <div className={styles["projects-list"]}>
                 {projects_arr.map((pro) => {
                     return (
