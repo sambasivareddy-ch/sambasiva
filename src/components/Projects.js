@@ -5,6 +5,15 @@ import Project from "./Project";
 
 const projects_arr = [
     {
+        project_name: "Spotify Profile",
+        link: "https://spotify-profile-dashboard.vercel.app/",
+        gitlink: "https://github.com/sambasivareddy-ch/spotify-profile-client",
+        description:
+            "A sleek and responsive frontend application that integrates with the Spotify Web API to deliver a personalized music dashboard.",
+        skills: ["React", "TypeScript", "Router", "Node.js", "Express.js", "Redis"],
+        status: "Completed",
+    },
+    {
         project_name: "NextBuy",
         link: "https://nextbuy-five.vercel.app/",
         gitlink: "https://github.com/sambasivareddy-ch/nextbuy",
