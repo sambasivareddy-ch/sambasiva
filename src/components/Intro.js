@@ -16,15 +16,26 @@ const Intro = () => {
           Currently, I serve as a Member of Technical Staff at Zoho Corporation, where I contribute to developing robust distributed system on the top of PostgreSQL.
         </p>
       </p>
-      <a
-        href="https://www.linkedin.com/in/samba-siva-reddy-ch/"
-        alt="resume"
-        className={styles["resume-link"]}
-        target="_blank"
-        rel="noreferrer"
-      >
-        LinkedIn
-      </a>
+      <div className={styles['info-links']}>
+        <a
+          href="https://www.linkedin.com/in/samba-siva-reddy-ch/"
+          alt="resume"
+          className={styles["linkedin-link"]}
+          target="_blank"
+          rel="noreferrer"
+        >
+          LinkedIn
+        </a>
+        <a
+          href="https://drive.google.com/file/d/1qxnK_7-Zj3bVdxGUlGAGaZEhyG6DMhh3/view"
+          alt="resume"
+          className={styles["resume-link"]}
+          target="_blank"
+          rel="noreferrer"
+        >
+          Resume
+        </a>
+      </div>
     </div>
   );
 };

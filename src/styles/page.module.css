@@ -25,13 +25,30 @@
     animation: blink-animation 1s steps(5, start) infinite;
 } */
 
-.resume-link {
+.info-links {
+  display: flex;
+  gap: 5px;
+}
+
+.resume-link, .linkedin-link {
   text-decoration: none;
   color: #000;
   border: solid 1px #00e676;
   padding: 10px;
   width: fit-content;
   border-radius: 5px;
+}
+
+.linkedin-link {
+  color: #00e676;
+}
+
+.linkedin-link:hover {
+  color: #000;
+  background-color: #00e676;
+}
+
+.resume-link {
   background-color: #00e676;
 }
 
