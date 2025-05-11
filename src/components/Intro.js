@@ -13,7 +13,7 @@ const Intro = () => {
       <p className={styles["intro-me"]}>
         <p className={styles["about-me"]}>
           I am a Full Stack Web Developer with a strong focus on building efficient and scalable web applications. With a passion for clean architecture and maintainable code, I specialize in the <span className={styles["highlight"]}>MERN stack (MongoDB, Express.js, React.js, Node.js)</span>  and possess additional backend experience in <span className={styles["highlight"]}>Go (Golang) and containerization using Docker.</span><br/><br/>
-          Currently, I serve as a Member of Technical Staff at Zoho Corporation, where I contribute to developing robust distributed system on the top of PostgreSQL.
+          Currently, I serve as a Member of Technical Staff at Zoho Corporation.
         </p>
       </p>
       <div className={styles['info-links']}>
@@ -26,7 +26,7 @@ const Intro = () => {
         >
           LinkedIn
         </a>
-        <a
+        {/* <a
           href="https://drive.google.com/file/d/1qxnK_7-Zj3bVdxGUlGAGaZEhyG6DMhh3/view"
           alt="resume"
           className={styles["resume-link"]}
@@ -34,7 +34,7 @@ const Intro = () => {
           rel="noreferrer"
         >
           Resume
-        </a>
+        </a> */}
       </div>
     </div>
   );
