@@ -21,7 +21,7 @@ const Project = (props) => {
             <span>{props.project_details.status === "Completed"? "Github": "In Progress"}</span>
             <ArrowOutwardIcon />
           </a>
-          {props.project_details.status === "Completed" && props.project_details.link != "" &&
+          {/* {props.project_details.status === "Completed" && props.project_details.link != "" &&
             <a
               href={props.project_details.link}
               target="_blank"
@@ -31,7 +31,7 @@ const Project = (props) => {
               <span>Link</span>
               <ArrowOutwardIcon />
             </a>
-          }
+          } */}
         </div>
       </div>
       <div className={styles["project-body"]}>
