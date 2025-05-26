@@ -5,6 +5,16 @@ import Project from "./Project";
 
 const projects_arr = [
     {
+        project_name: "Bloggie",
+        link: "https://testflight.apple.com/join/fEEEqPXk",
+        gitlink: "https://github.com/sambasivareddy-ch/Bloggie",
+        description:
+            "A sleek and responsive frontend application that integrates with the Spotify Web API to deliver a personalized music dashboard.",
+        skills: ["React-Native", "IOS", "Firebase (Auth/DB)"],
+        status: "Completed",
+        preview: true,
+    },
+    {
         project_name: "Spotify Profile",
         link: "https://spotify-profile-dashboard.vercel.app/",
         gitlink: "https://github.com/sambasivareddy-ch/spotify-profile-client",
@@ -12,6 +22,7 @@ const projects_arr = [
             "A sleek and responsive frontend application that integrates with the Spotify Web API to deliver a personalized music dashboard.",
         skills: ["React", "TypeScript", "Router", "Node.js", "Express.js", "Redis"],
         status: "Completed",
+        preview: false,
     },
     {
         project_name: "NextBuy",
@@ -21,6 +32,7 @@ const projects_arr = [
             "A Single Page E-Commerce Application which allows the users perform adding products to cart, wishlist and checkout the products. (Currenly It's static one with some statically generated data)",
         skills: ["React", "TypeScript", "Redux", "Router", "MockApI"],
         status: "Completed",
+        preview: true,
     },
     {
         project_name: "Database Backup Utility",
@@ -30,6 +42,7 @@ const projects_arr = [
             "An CLI tool which helps to perform Backup, restore on database likes Postgres, SQL and also helps to automate the backup job",
         skills: ["Go", "Cobra", "CLI"],
         status: "Completed",
+        preview: true,
     },
     {
         project_name: "Meeting Notes",
@@ -39,6 +52,7 @@ const projects_arr = [
             "An Application which helps to take notes on various scheduled meeting in your google calender.",
         skills: ["React.js", "Go", "REST", "Postgres", "Redis", "Gin"],
         status: "Completed",
+        preview: true,
     },
     {
         project_name: "Event Management REST API",
@@ -46,7 +60,8 @@ const projects_arr = [
         gitlink: "https://github.com/sambasivareddy-ch/rest_api_go",
         description: "An Event Management API helps in creating, deleting and updating an event. And supports user registration to the events",
         skills: ['Go', 'Gin ', 'REST API', 'SQLite3'],
-        status: "Completed"
+        status: "Completed",
+        preview: false,
     },
 ];
 
