@@ -9,7 +9,7 @@ const projects_arr = [
         link: "https://testflight.apple.com/join/fEEEqPXk",
         gitlink: "https://github.com/sambasivareddy-ch/Bloggie",
         description:
-            "A sleek and responsive frontend application that integrates with the Spotify Web API to deliver a personalized music dashboard.",
+            "An mobile application which helps the users to kickstart their blogging journey by allowing them to write blogs and journals",
         skills: ["React-Native", "IOS", "Firebase (Auth/DB)"],
         status: "Completed",
         preview: true,

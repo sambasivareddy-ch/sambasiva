@@ -10,11 +10,10 @@ const Intro = () => {
         <span className={styles["wishes"]}>Namaste! I'm <b>Samba Siva Reddy</b>.</span> 
       </p>
       <h1 className={styles["my-name"]}>Software Developer</h1>
-      <p>I build applications for Web & Mobile</p>
+      <p><b>I build applications for Web & Mobile</b></p>
       <p className={styles["intro-me"]}>
         <p className={styles["about-me"]}>
-          I am a Full Stack Web Developer with a strong focus on building scalable, high-performance web applications with clean architecture and maintainable code. I specialize in the MERN stack (MongoDB, Express.js, React.js, Node.js) and have additional backend experience in Golang, particularly for creating efficient APIs and microservices. I’m also well-versed in containerization using Docker, enabling smooth development and deployment workflows.<br/>
-          Recently, I’ve expanded into mobile development with React Native, allowing me to build cross-platform applications while maintaining consistency across web and mobile platforms.<br/>
+          Full Stack Web Developer specializing in the MERN stack, with backend expertise in Golang and experience in Docker-based containerization. I focus on building scalable, maintainable applications with clean architecture. Recently, I’ve expanded into cross-platform mobile development using React Native.
           Currently, I serve as a Member of Technical Staff at Zoho Corporation.
         </p>
       </p>
