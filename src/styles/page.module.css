@@ -7,16 +7,33 @@
 }
 
 .welcome-msg {
+  display: inline-block;
   letter-spacing: 1px;
+  display: flex;
+  align-items: center;
 }
 
-/* .wishes { */
+.wishes { 
   /* text-decoration: underline wavy; */
-/* } */
+  font-family: var(--font-family-raleway);
+}
 
 .my-name {
+  color: #00e676;
+  font-family: var(--font-family-raleway);
+}
+
+.my-role{
   /* color: #311b92; */
   font-size: 4em;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-family-raleway);
+}
+
+.my-role svg {
+  font-size: 1em;
 }
 
 /* .my-name::after {
@@ -103,6 +120,7 @@
 .contact-wrapper .caption ,
 .skills-wrapper .caption {
   color: #fff;
+  font-family: var(--font-family-raleway);
 }
 
 .experience {
@@ -141,8 +159,8 @@
   grid-template-columns: repeat(3, 1fr);
   justify-content: space-around;
   padding: 20px 0;
-  border-bottom: solid 2px #fff;
-  border-top: solid 2px #fff;
+  border-bottom: solid 1px #fff;
+  /* border-top: solid 2px #fff; */
 }
 
 .new-experience-wrapper p:nth-child(1) {
@@ -150,7 +168,7 @@
 }
 
 .new-experience-wrapper p:nth-child(2) {
-  justify-self: center;
+  justify-self: start;
 }
 
 .new-experience-wrapper p:nth-child(3) {
@@ -192,9 +210,9 @@
   margin: 0 0 20px;
   font-size: 35px;
   font-weight: bolder;
-  text-transform: uppercase;
+  text-transform: capitalize;
   letter-spacing: 2px;
-  font-family: sans-serif;
+  font-family: var(--font-family-raleway);
 }
 
 /* .title::after {
@@ -310,6 +328,7 @@
 
 .project-body h3 {
   font-size: 20px;
+  font-family: var(--font-family-raleway);
 }
 
 .project-body h3 a{
@@ -444,6 +463,33 @@
 
 .github-link:hover {
   transform: scale(0.96);
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 16ch;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.my-name {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: text-bottom;
+  white-space: nowrap;
+  border-right: 2px solid #00e676;
+  animation: typing 2s steps(17, end), blink 0.75s step-end infinite;
+  color: #00e676; /* or your desired color */
+  width: 0; /* important: initial width for animation */
+  animation-fill-mode: forwards;
 }
 
 /* @media screen and (max-width: 599px) {

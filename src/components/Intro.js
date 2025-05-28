@@ -1,20 +1,26 @@
 import React from "react";
 
 import styles from "../styles/page.module.css";
+import CodeIcon from '@mui/icons-material/Code';
+import DataObjectIcon from '@mui/icons-material/DataObject';
 // import resume from "../assests/samba_resume.pdf";
 
 const Intro = () => {
   return (
     <div className={styles["intro-wrapper"]}>
       <p className={styles["welcome-msg"]}>
-        <span className={styles["wishes"]}>Namaste! I'm <b>Samba Siva Reddy</b>.</span> 
+        <h3 className={styles["wishes"]}>Namaste! I'm <b className={styles['my-name']}>Samba Siva Reddy</b>.</h3> 
       </p>
-      <h1 className={styles["my-name"]}>Software Developer</h1>
-      <p><b>I build applications for Web & Mobile.</b></p>
+      <h1 className={styles["my-role"]}><DataObjectIcon/> Software Developer</h1>
+      <p><b>I build scalable applications for Web & Mobile.</b></p>
       <p className={styles["intro-me"]}>
         <p className={styles["about-me"]}>
-          Full Stack Web Developer specializing in the MERN stack, with backend expertise in Golang and experience in Docker-based containerization. I focus on building scalable, maintainable applications with clean architecture. Recently, I’ve expanded into cross-platform mobile development using React Native.<br/>
-          Currently, I serve as a Member of Technical Staff at Zoho Corporation.
+          I'm a Full Stack Web Developer specializing in the MERN stack, with backend expertise in Golang and hands-on experience with Docker-based containerization.
+I focus on delivering clean, maintainable architecture that scales well.
+
+Recently, I’ve expanded into cross-platform mobile development using React Native.<br/>
+
+Currently, I serve as a Member of Technical Staff at Zoho Corporation.
         </p>
       </p>
       <div className={styles['info-links']}>

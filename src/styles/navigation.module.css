@@ -29,8 +29,9 @@
     margin: 0 5px;
 }
 
-.nav-link:hover {
+.nav-link:hover, .nav-link:hover > .list-number {
     text-decoration: underline;
+    color: #00e676;
 }
 
 .menu-icon {

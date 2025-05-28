@@ -2,6 +2,7 @@ import React from "react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import TwitterIcon from '@mui/icons-material/Twitter';
 
 import styles from "../styles/page.module.css";
 
@@ -40,11 +41,11 @@ const Contact = () => {
         </li>
         <li>
           <a
-            href="https://github.com/samba-chinta"
+            href="https://x.com/sambasivadev"
             rel="noreferrer"
             target="_blank"
           >
-            <GitHubIcon />
+            <TwitterIcon />
           </a>
         </li>
         <li>
