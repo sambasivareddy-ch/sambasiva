@@ -10,7 +10,7 @@ const projects_arr = [
         gitlink: "https://github.com/sambasivareddy-ch/Bloggie",
         description:
             "An mobile application which helps the users to kickstart their blogging journey by allowing them to write blogs and journals",
-        skills: ["React-Native", "IOS", "Firebase (Auth/DB)"],
+        skills: ["React-Native", "Firebase Authentication", "Firebase RealTime DB"],
         status: "Completed",
         preview: true,
     },
@@ -20,7 +20,7 @@ const projects_arr = [
         gitlink: "https://github.com/sambasivareddy-ch/spotify-profile-client",
         description:
             "A sleek and responsive frontend application that integrates with the Spotify Web API to deliver a personalized music dashboard.",
-        skills: ["React", "TypeScript", "Router", "Node.js", "Express.js", "Redis"],
+        skills: ["React (TS)", "Express.js", "Spotify API"],
         status: "Completed",
         preview: false,
     },
@@ -30,7 +30,7 @@ const projects_arr = [
         gitlink: "https://github.com/sambasivareddy-ch/nextbuy",
         description:
             "A Single Page E-Commerce Application which allows the users perform adding products to cart, wishlist and checkout the products. (Currenly It's static one with some statically generated data)",
-        skills: ["React", "TypeScript", "Redux", "Router", "MockApI"],
+        skills: ["React (TS)", "Redux", "Router", "MockApI"],
         status: "Completed",
         preview: true,
     },
@@ -50,7 +50,7 @@ const projects_arr = [
         gitlink: "https://github.com/sambasivareddy-ch/meeting_notes",
         description:
             "An Application which helps to take notes on various scheduled meeting in your google calender.",
-        skills: ["React.js", "Go", "REST", "Postgres", "Redis", "Gin"],
+        skills: ["React.js", "Go Language", "Postgres", "Gin"],
         status: "Completed",
         preview: true,
     },
