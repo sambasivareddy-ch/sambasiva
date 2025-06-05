@@ -7,11 +7,9 @@
 }
 
 .welcome-msg {
-  display: inline-block;
   letter-spacing: 1px;
-  display: flex;
-  align-items: center;
   margin: 10px 0;
+  text-align: center;
 }
 
 .wishes { 
@@ -19,7 +17,6 @@
   font-family: var(--font-family-raleway);
   display: flex;
   align-items: center;
-  gap: 10px;
   flex-wrap: wrap;
 }
 
@@ -29,18 +26,19 @@
   background-color: #00e676;
   padding: 5px;
   border-radius: 5px;
-  margin: 10px 0;
+  margin: 0 5px;
 }
 
-.my-role {
+.my-role, .typed-role {
   /* color: #311b92; */
   font-size: 6vw;
   display: flex;
   align-items: center;
   gap: 10px;
   font-family: var(--font-family-raleway);
-  margin: 10px 0 20px;
+  margin: 10px 0 10px;
   color: #00e676;
+  font-weight: bold;
 }
 
 .my-role svg {
@@ -224,7 +222,7 @@
 
 .title {
   color: #00e676;
-  margin: 0 0 20px;
+  margin: 0 0 10px;
   font-size: 35px;
   font-weight: bolder;
   text-transform: capitalize;
@@ -522,7 +520,7 @@
     
 } */
 @media screen and (max-width: 500px) {
-  .my-role {
+  .my-role, .typed-role {
     font-size: 9vw;
     line-height: 1;
   }
