@@ -7,7 +7,7 @@ import DataObjectIcon from '@mui/icons-material/DataObject';
 
 const Intro = () => {
   return (
-    <div className={styles["intro-wrapper"]}>
+    <div className={styles["intro-wrapper"]} id="about">
       {/* <p className={styles["welcome-msg"]}>
         <h3 className={styles["wishes"]}>Namaste! I'm <b className={styles['my-name']}>Samba Siva Reddy</b></h3>
       </p>

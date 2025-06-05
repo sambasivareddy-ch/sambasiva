@@ -5,7 +5,7 @@ import samba from "../assests/samba.jpg";
 
 const About = () => {
   return (
-    <div className={styles["about-div__wrapper"]} id="about">
+    <div className={styles["about-div__wrapper"]}>
       {/* <img src={samba} alt="Samba" className={styles["my-img"]} /> */}
       <div className={styles["about-wrapper"]}>
         <p className={styles["welcome-msg"]}>
