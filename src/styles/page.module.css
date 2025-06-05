@@ -11,25 +11,36 @@
   letter-spacing: 1px;
   display: flex;
   align-items: center;
+  margin: 10px 0;
 }
 
 .wishes { 
   /* text-decoration: underline wavy; */
   font-family: var(--font-family-raleway);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
 .my-name {
-  color: #00e676;
+  color: #000;
   font-family: var(--font-family-raleway);
+  background-color: #00e676;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px 0;
 }
 
-.my-role{
+.my-role {
   /* color: #311b92; */
-  font-size: 4em;
+  font-size: 6vw;
   display: flex;
   align-items: center;
   gap: 10px;
   font-family: var(--font-family-raleway);
+  margin: 10px 0 20px;
+  color: #00e676;
 }
 
 .my-role svg {
@@ -85,7 +96,7 @@
 }
 
 .intro-me {
-  width: 50%;
+  width: 70%;
   line-height: 32px;
   color: var(--text-color);
   font-size: 1em;
@@ -101,8 +112,13 @@
 
 .about-div__wrapper {
   width: 80%;
+  height: 75vh;
   display: flex;
   margin: 80px auto;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
 }
 
 .experience-wrapper,
@@ -192,8 +208,9 @@
 }
 
 .my-img {
-  width: 320px;
+  width: 240px;
   height: auto;
+  /* border-radius: 50%; */
 }
 
 .about-wrapper {
@@ -480,7 +497,7 @@
   }
 }
 
-.my-name {
+/* .my-name {
   display: inline-block;
   overflow: hidden;
   vertical-align: text-bottom;
@@ -488,9 +505,9 @@
   border-right: 2px solid #00e676;
   animation: typing 2s steps(17, end), blink 0.75s step-end infinite;
   color: #00e676; /* or your desired color */
-  width: 0; /* important: initial width for animation */
-  animation-fill-mode: forwards;
-}
+  /* width: 0; important: initial width for animation */
+  /* animation-fill-mode: forwards; */
+/* }  */
 
 /* @media screen and (max-width: 599px) {
     .my-img {
@@ -506,7 +523,8 @@
 } */
 @media screen and (max-width: 500px) {
   .my-role {
-    font-size: 2.5em;
+    font-size: 9vw;
+    line-height: 1;
   }
 }
 

@@ -2,7 +2,7 @@ import styles from "../styles/app.module.css";
 
 import Navigation from "../components/Navigation";
 import Intro from "../components/Intro";
-// import About from "../components/About";
+import About from "../components/About";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
@@ -13,8 +13,8 @@ const Main = () => {
     <div className={styles["app"]}>
       <Navigation />
       {/* <hr/> */}
+      <About />
       <Intro />
-      {/* <About /> */}
       <Skills />
       <Experiences />
       <Projects />

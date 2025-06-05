@@ -8,19 +8,17 @@ import DataObjectIcon from '@mui/icons-material/DataObject';
 const Intro = () => {
   return (
     <div className={styles["intro-wrapper"]}>
-      <p className={styles["welcome-msg"]}>
-        <h3 className={styles["wishes"]}>Namaste! I'm <b className={styles['my-name']}>Samba Siva Reddy</b></h3> 
+      {/* <p className={styles["welcome-msg"]}>
+        <h3 className={styles["wishes"]}>Namaste! I'm <b className={styles['my-name']}>Samba Siva Reddy</b></h3>
       </p>
-      <h1 className={styles["my-role"]}> Software Developer</h1>
-      <p><b>I build scalable applications for Web & Mobile.</b></p>
+      <h1 className={styles["my-role"]}> Software Developer</h1> */}
+      {/* <p><b>I build scalable applications for Web & Mobile.</b></p> */}
       <p className={styles["intro-me"]}>
         <p className={styles["about-me"]}>
           I'm a Full Stack Web Developer specializing in the MERN stack, with backend expertise in Golang and hands-on experience with Docker-based containerization.
-I focus on delivering clean, maintainable architecture that scales well.
-
-Recently, I’ve expanded into cross-platform mobile development using React Native.<br/>
-
-Currently, I serve as a Member of Technical Staff at Zoho Corporation.
+          I focus on delivering clean, maintainable architecture that scales well.
+          Recently, I’ve expanded into cross-platform mobile development using React Native.<br />
+          Currently, I serve as a Member of Technical Staff at Zoho Corporation.
         </p>
       </p>
       <div className={styles['info-links']}>

@@ -23,3 +23,8 @@
   background-color: #212121;
 }
 
+::selection {
+  background: #00e676; 
+  color: #000;         
+}
+
