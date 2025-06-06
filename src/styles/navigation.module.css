@@ -1,5 +1,5 @@
 .app-header {
-    width: 80%;
+    width: 82%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,7 +50,7 @@
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 80%;
+    width: 82%;
     display: flex;
     justify-content: space-between;
     align-items: center;

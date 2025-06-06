@@ -24,9 +24,7 @@
 }
 
 .my-name {
-  color: #000;
-  font-family: var(--font-family-raleway);
-  background-color: #00e676;
+  color: #00e676;
 }
 
 .my-role {
@@ -251,16 +249,19 @@
 
 .skill {
   font-size: 14px;
-  border-radius: 5px;
+  border-radius: 5pc;
   padding: 10px;
   display: flex;
-  flex-direction: column;
-  gap: 10px 0;
+  gap: 10px;
   justify-content: center;
+  align-items: center;
+  background-color: #263238;
+  padding: 10px 15px;
 }
 
 .skill img {
-  width: 80px;
+  width: 25px;
+  border-radius: 50%;
 }
 
 .table {
@@ -563,12 +564,6 @@
   .pro-wrapper {
     height: fit-content;
   }
-  .skill {
-    font-size: 12px;
-  }
-  .skill img {
-    width: 60px;
-  }
 }
 
 @media screen and (min-width: 200px) and (max-width: 640px) {
@@ -582,12 +577,6 @@
     height: 400px;
     margin: 10px auto;
     border-radius: 5px;
-  }
-  .skill {
-    font-size: 10px;
-  }
-  .skill img {
-    width: 50px;
   }
   .new-experience-wrapper {
     display: flex;

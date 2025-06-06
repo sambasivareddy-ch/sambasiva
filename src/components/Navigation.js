@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import styles from "../styles/navigation.module.css";
 import Logo from "./Logo";
 import MenuIcon from "@mui/icons-material/Menu";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 const Navigation = () => {
   let isNavOpen = false;
@@ -11,7 +12,7 @@ const Navigation = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsSticky(window.scrollY > 100); 
+      setIsSticky(window.scrollY > 10); 
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -67,6 +68,15 @@ const Navigation = () => {
             <a className={styles["nav-link"]} href="#contact">
               <span className={styles["list-number"]}>05.</span>
               Contact
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/sambasivareddy-ch"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <GitHubIcon />
             </a>
           </li>
         </ol>
