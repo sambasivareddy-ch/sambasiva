@@ -6,6 +6,36 @@ import KeyboardBackspaceIcon from "@mui/icons-material/KeyboardBackspace";
 
 const projects_arr = [
     {
+        project_name: "Bloggie",
+        link: "https://testflight.apple.com/join/fEEEqPXk",
+        gitlink: "https://github.com/sambasivareddy-ch/Bloggie",
+        description:
+            "An mobile application which helps the users to kickstart their blogging journey by allowing them to write blogs and journals",
+        skills: ["React-Native", "Firebase Authentication", "Firebase RealTime DB"],
+        status: "Completed",
+        preview: true,
+    },
+    {
+        project_name: "Spotify Profile",
+        link: "https://spotify-profile-dashboard.vercel.app/",
+        gitlink: "https://github.com/sambasivareddy-ch/spotify-profile-client",
+        description:
+            "A sleek and responsive frontend application that integrates with the Spotify Web API to deliver a personalized music dashboard.",
+        skills: ["React (TS)", "Express.js", "Spotify API"],
+        status: "Completed",
+        preview: false,
+    },
+    {
+        project_name: "NextBuy",
+        link: "https://e-nextbuy.vercel.app/",
+        gitlink: "https://github.com/sambasivareddy-ch/nextbuy",
+        description:
+            "A Single Page E-Commerce Application which allows the users perform adding products to cart, wishlist and checkout the products. (Currenly It's static one with some statically generated data)",
+        skills: ["React (TS)", "Redux", "Router", "MockApI"],
+        status: "Completed",
+        preview: true,
+    },
+    {
         project_name: "Database Backup Utility",
         link: "https://github.com/sambasivareddy-ch/db_backup_utility/releases/tag/v1.0.0",
         gitlink: "https://github.com/sambasivareddy-ch/db_backup_utility",
@@ -13,6 +43,7 @@ const projects_arr = [
             "An CLI tool which helps to perform Backup, restore on database likes Postgres, SQL and also helps to automate the backup job",
         skills: ["Go", "Cobra", "CLI"],
         status: "Completed",
+        preview: true,
     },
     {
         project_name: "Meeting Notes",
@@ -20,50 +51,18 @@ const projects_arr = [
         gitlink: "https://github.com/sambasivareddy-ch/meeting_notes",
         description:
             "An Application which helps to take notes on various scheduled meeting in your google calender.",
-        skills: ["React.js", "Go", "REST", "Postgres", "Redis", "Gin"],
+        skills: ["React.js", "Go Language", "Postgres", "Gin"],
         status: "Completed",
-    },
-    {
-        project_name: "Examination Planner for Edu Institutes",
-        link: "",
-        gitlink: "https://github.com/sambasivareddy-ch/exam_planner",
-        description: "A Exam Planner which helps the education institutes to schedule/plan their examinations and students/invigilators can get their schedule",
-        skills: ['React.JS', 'Postgres', 'Node.JS', 'Express', 'Docker'],
-        status: "Completed"
+        preview: true,
     },
     {
         project_name: "Event Management REST API",
         link: "",
         gitlink: "https://github.com/sambasivareddy-ch/rest_api_go",
         description: "An Event Management API helps in creating, deleting and updating an event. And supports user registration to the events",
-        skills: ['Go', 'Gin', 'REST API', 'SQLite3'],
-        status: "Completed"
-    },
-    {
-        project_name: "Notebook CLI",
-        link: "",
-        gitlink: "https://github.com/sambasivareddy-ch/notebook_cli",
-        description: "A Notes making CLI application return in Go with support of creating, modifying, delete, viewing the notes",
-        skills: ['Go', 'CLI', 'Cobra', 'PromptUI', 'SQLite3'],
-        status: "Completed"
-    },
-    {
-        project_name: "Social Clubs Event Manager",
-        link: "",
-        gitlink: "https://github.com/samba-chinta/club_manager",
-        description: "A project which helps to integrate all the social clubs in the college & helps in scheduling their events without any conflicts with other club events.",
-        skills: ['React.js', 'Node.js', 'Express.js', 'REST API', 'MongoDB'],
-        status: "Completed"
-    },
-    {
-        project_name: "Query based Application",
-        link: "",
-        gitlink:
-            "https://github.com/samba-chinta/question_and_answer_website_client",
-        description:
-            "A project which helps the students to clear their doubts by posting the doubts in the form of question, and get answers from fellow students.",
-        skills: ["React.js", "Node.js", "Express.js", "REST API"],
+        skills: ['Go', 'Gin ', 'REST API', 'SQLite3'],
         status: "Completed",
+        preview: false,
     },
 ];
 

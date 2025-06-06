@@ -34,35 +34,6 @@ const projects_arr = [
         status: "Completed",
         preview: true,
     },
-    {
-        project_name: "Database Backup Utility",
-        link: "https://github.com/sambasivareddy-ch/db_backup_utility/releases/tag/v1.0.0",
-        gitlink: "https://github.com/sambasivareddy-ch/db_backup_utility",
-        description:
-            "An CLI tool which helps to perform Backup, restore on database likes Postgres, SQL and also helps to automate the backup job",
-        skills: ["Go", "Cobra", "CLI"],
-        status: "Completed",
-        preview: true,
-    },
-    {
-        project_name: "Meeting Notes",
-        link: "https://meeting-notes-phi.vercel.app/",
-        gitlink: "https://github.com/sambasivareddy-ch/meeting_notes",
-        description:
-            "An Application which helps to take notes on various scheduled meeting in your google calender.",
-        skills: ["React.js", "Go Language", "Postgres", "Gin"],
-        status: "Completed",
-        preview: true,
-    },
-    {
-        project_name: "Event Management REST API",
-        link: "",
-        gitlink: "https://github.com/sambasivareddy-ch/rest_api_go",
-        description: "An Event Management API helps in creating, deleting and updating an event. And supports user registration to the events",
-        skills: ['Go', 'Gin ', 'REST API', 'SQLite3'],
-        status: "Completed",
-        preview: false,
-    },
 ];
 
 const Projects = () => {
@@ -81,6 +52,7 @@ const Projects = () => {
                     );
                 })}
             </div>
+            <Link to={"/projects"}>More Projects</Link>
         </div>
     );
 };
