@@ -61,7 +61,7 @@
 @media screen and (max-width: 599px) {
     .app-header {
         flex-direction: column;
-        width: 90%;
+        width: 92%;
         justify-content: space-between;
 
     }
@@ -94,13 +94,20 @@
         flex-direction: column;
         justify-content: flex-start;
         gap: 10px 0;
+    }
+    .sticky-nav {
+        position: fixed;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 92%;
     }
 }
 
 @media screen and (min-width: 600px) and (max-width: 1000px){
     .app-header {
         flex-direction: column;
-        width: 90%;
+        width: 92%;
     }
     .icon-btn {
         display: block;
@@ -131,5 +138,12 @@
         flex-direction: column;
         justify-content: flex-start;
         gap: 10px 0;
+    }
+    .sticky-nav {
+        position: fixed;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 92%;
     }
 }
