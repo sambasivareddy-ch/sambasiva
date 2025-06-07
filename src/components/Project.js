@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import FolderIcon from "@mui/icons-material/Folder";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
@@ -12,7 +13,7 @@ const Project = (props) => {
       <div className={styles["project-header"]}>
         <FolderIcon />
         <div className={styles["header-meta"]}>
-          {props.project_details.preview && props.project_details.link != "" &&
+          {/* {props.project_details.preview && props.project_details.link != "" &&
             <a
               href={props.project_details.link}
               target="_blank"
@@ -21,7 +22,7 @@ const Project = (props) => {
             >
               <OpenInNewIcon/>
             </a>
-          }
+          } */}
           <a
             href={props.project_details.gitlink}
             target="_blank"
@@ -36,11 +37,12 @@ const Project = (props) => {
       </div>
       <div className={styles["project-body"]}>
         <h3>
-          <a 
-            href={props.project_details.gitlink}
-            target="_blank"
-            rel="noreferrer"
-          >{props.project_details.project_name}</a>
+          <Link
+            to={`/project/${props.project_details.id}`}
+          >
+            {props.project_details.project_name}
+          </Link>
+          <OpenInNewIcon/>
         </h3>
         <p>{props.project_details.description}</p>
       </div>
