@@ -11,6 +11,7 @@ import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import spotifyImage from '../assests/spotify.png';
 import nextbuyImage from '../assests/nextbuy.png';
 import meetingNotesImage from '../assests/meetingNotes.png';
+import clubManagerImage from '../assests/clubmanager.png';
 
 const ProjectDetailsPage = (props) => {
     const { id } = useParams();
@@ -44,10 +45,13 @@ const ProjectDetailsPage = (props) => {
                                 <img src={spotifyImage} alt="Spotify Image"/>
                             }
                             {id === 'project3' && 
-                                <img src={nextbuyImage} alt="Spotify Image"/>
+                                <img src={nextbuyImage} alt="Next Buy Image"/>
                             }
                             {id === 'project5' && 
-                                <img src={meetingNotesImage} alt="Spotify Image"/>
+                                <img src={meetingNotesImage} alt="Meeting notes Image"/>
+                            }
+                            {id === 'project7' && 
+                                <img src={clubManagerImage} alt="Club Manager Image"/>
                             }
                         </a>
                     </div>}

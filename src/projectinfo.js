@@ -75,6 +75,23 @@ const PROJECTS_DATA = [
         status: "Completed",
         preview: false,
     },
+    {
+        id: 'project7',
+        project_name: "Club Manager",
+        link: "https://eclub-manager.vercel.app/",
+        gitlink: "https://github.com/sambasivareddy-ch/club_manager",
+        description: "An application which allows the manage the different clubs affectively without conflicting the Events",
+        skills: ['React.js', 'Express.js', 'Mongo DB', 'Rest API', 'Redux'],
+        status: "Completed",
+        preview: false,
+        features: [
+            "An application built with three-user architecture i.e user, manager, admin",
+            "Admin can ables to create a new club and add a manager to it and can delete the club if needed",
+            "Once the manager is added, We will send an email with Password to login into the web application",
+            "Manager can add the club members, events and edit club related to that Club",
+            "In the home page, we summarize all the clubs and events related to that organization",
+        ]
+    },
 ];
 
 export default PROJECTS_DATA;
