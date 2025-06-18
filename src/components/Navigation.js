@@ -3,6 +3,7 @@ import styles from "../styles/navigation.module.css";
 import Logo from "./Logo";
 import MenuIcon from "@mui/icons-material/Menu";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import { Link } from 'react-router-dom'; 
 
 const Navigation = () => {
   let isNavOpen = false;
@@ -69,6 +70,12 @@ const Navigation = () => {
               <span className={styles["list-number"]}>05.</span>
               Contact
             </a>
+          </li>
+          <li>
+            <Link className={styles["nav-link"]} to="/blog">
+              <span className={styles["list-number"]}>06.</span>
+              Blog
+            </Link>
           </li>
           <li>
             <a
