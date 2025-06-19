@@ -9,13 +9,13 @@ const blogs = [
         'filename': 'system-design-01.md',
     },
     {
-        'id': 'sample-1',
-        'slug': 'sample',
-        'title': 'Sample Blog',
-        'description': 'This is a sample blog description.',
-        'date': '2023-10-01',
-        'domains': ['javascript'],
-        'filename': 'sample.md',
+        'id': 'cp-01',
+        'slug': 'cp-01',
+        'title': 'Maximum Subarray Sum',
+        'description': 'Competitive Programming Problem: Find the maximum sum of a contiguous subarray.',
+        'date': 'June 19, 2025',
+        'domains': ['competitive-programming', 'dynamic-programming', 'array'],
+        'filename': 'cp-01.md',
     },
 ]
 
