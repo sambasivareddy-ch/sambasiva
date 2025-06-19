@@ -12,11 +12,8 @@ const BlogPost = () => {
     const [content, setContent] = useState("");
     const [meta, setMeta] = useState({});
 
-    console.log("BlogPost component rendered with slug:", slug);
-
     useEffect(() => {
         const post = blogs.find((p) => p.slug === slug);
-        console.log("Post found:", post);
         if (!post) return;
 
         fetch(`/posts/${post.filename}`)

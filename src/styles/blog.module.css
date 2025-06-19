@@ -8,6 +8,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    margin: 20px 0;
 }
 
 .home-btn:hover {
@@ -19,10 +20,14 @@
     font-family: var(--font-family-pop);
 }
 
+.blog-wrapper {
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
 .blog-main {
     width: 80%;
-    margin: 0 auto;
-    padding: 20px;
 }
 
 .blogs {
@@ -60,7 +65,7 @@
 }
 
 .blog-description {
-    font-size: 12px;
+    font-size: 16px;
     line-height: 20px;
     margin: 10px 0;
 }
@@ -118,13 +123,13 @@
 
 .blog-comp__details span {
   width: fit-content;
-  padding: 10px;
+  padding: 10px 20px;
   border-radius: 5pc;
   margin: 5px;
   font-size: 12px;
   color: #000;
   text-align: center;
-  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-color: #00e676;
   backdrop-filter: blur(0.1px);
   overflow-x: scroll;
 }
@@ -155,10 +160,6 @@
     margin: 20px auto;
 }
 
-.blog-post-wrapper a {
-    text-decoration: none;
-    color: #fff;
-}
 
 .blog-post-wrapper a:hover {
     color: #00e676;
@@ -172,6 +173,7 @@
 .blog-post-wrapper h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-raleway);
     color: #fff;
+    margin: 20px 0 0;
 }
 
 .blog-post-wrapper pre {
@@ -182,7 +184,7 @@
 }
 
 .blog-post-wrapper li {
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
 .blog-post-wrapper pre code {
@@ -190,6 +192,28 @@
     background-color: #212121;
     font-size: 16px;
     color: #fff;
+}
+
+.blog-tags {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.blog-tag {
+    padding: 10px 20px;
+    border-radius: 5pc;
+    border: solid 1px #263238;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.blog-tag:hover {
+    background-color: #00e676;
+    color: #000;
 }
 
 @media screen and (min-width: 300px) and (max-width: 600px) {
