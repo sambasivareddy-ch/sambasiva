@@ -202,13 +202,25 @@
     margin: 20px 0;
 }
 
-.blog-tag {
+.blog-tag, .blog-tag_reset {
     padding: 10px 20px;
     border-radius: 5pc;
     border: solid 1px #263238;
     color: #fff;
     font-size: 14px;
     cursor: pointer;
+}
+
+.blog-tag_reset {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #2196f3;
+}
+
+.blog-tag_reset svg {
+    color: #000;
+    background-color: #2196f3;
 }
 
 .blog-tag:hover {

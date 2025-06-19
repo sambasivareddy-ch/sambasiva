@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import HomeIcon from "@mui/icons-material/Home";
+import ClearIcon from '@mui/icons-material/Clear';
 import BlogComponent from "../components/BlogComponent";
 import styles from "../styles/blog.module.css";
 
@@ -9,12 +10,14 @@ import blogs from "../blogsInfo";
 
 const Blog = () => {
     const [blogTags, setBlogTags] = useState([]);
+    let [initialTags, setInitialTags] = useState([]);
 
 
     useEffect(() => {
         // Initialize blogTags with all unique tags from blogs
         const initialTags = Array.from(new Set(blogs.flatMap(blog => blog.domains)));
         setBlogTags(initialTags);
+        setInitialTags(initialTags);
     }, []);
 
     const handleTagClick = (tag) => {
@@ -47,6 +50,14 @@ const Blog = () => {
                             {tag}
                         </button>
                     ))}
+                    {blogTags.length !== initialTags.length && (
+                        <button
+                            className={styles["blog-tag_reset"]}
+                            onClick={() => setBlogTags(initialTags)}
+                        >
+                            reset <ClearIcon fontSize="small" />
+                        </button>
+                    )}
                 </div>
                 <div className={styles["blogs"]}>
                     {blogs.map((blog) => {
