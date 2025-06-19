@@ -1,9 +1,18 @@
 const blogs = [
     {
+        'id': 'system-design-02',
+        'slug': 'system-design-02',
+        'title': '01: System Design - Load Balancing',
+        'description': 'Second post in the system design series, focusing on load balancing techniques.',
+        'date': 'June 19, 2025',
+        'domains': ['system-design'],
+        'filename': 'system-design-02.md',
+    },
+    {
         'id': 'system-design-01',
         'slug': 'system-design-01',
-        'title': 'Day 1: System Design - Introduction to System Design',
-        'description': 'First day of the system design series, covering the basics of system design.',
+        'title': '01: System Design - Introduction to System Design',
+        'description': 'First post in the system design series, covering the basics of system design.',
         'date': 'June 19, 2025',
         'domains': ['system-design'],
         'filename': 'system-design-01.md',

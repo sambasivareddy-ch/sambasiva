@@ -164,12 +164,23 @@
 }
 
 .blog-post-wrapper {
-    font-family: var(--font-family-raleway);
+    /* font-family: var(--font-family-raleway); */
+    font-family: var(--font-family-pop);
     line-height: 2;
     width: 80%;
     margin: 20px auto;
 }
 
+hr {
+    margin: 20px 0  ;
+}
+
+img {
+    margin: 20px 0;
+    width: 100%;
+    height:auto;
+    border-radius: 5px;
+}
 
 .blog-post-wrapper a:hover {
     color: #00e676;
