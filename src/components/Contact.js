@@ -32,14 +32,14 @@ const Contact = () => {
         </li>
         <li>
           <a
-            href="https://www.instagram.com/je.suis.siva/"
+            href="https://www.instagram.com/samsr.ch/"
             rel="noreferrer"
             target="_blank"
           >
             <InstagramIcon />
           </a>
         </li>
-        <li>
+        {/* <li>
           <a
             href="https://x.com/sambasivadev"
             rel="noreferrer"
@@ -47,7 +47,7 @@ const Contact = () => {
           >
             <TwitterIcon />
           </a>
-        </li>
+        </li> */}
         <li>
           <a
             href="https://github.com/sambasivareddy-ch"

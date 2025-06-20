@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
   --charcoal-color: #101820FF;
@@ -9,22 +10,29 @@
   --font-family: 'Roboto Slab', serif;
   --font-family-pop: 'Poppins', serif;
   --font-family-raleway: "Raleway", sans-serif;
+  --font-family-pt-serif: "PT Serif", serif;
   --bg-color: #0B192E;
   --text-color: #90a4ae;
   --green-color: #43a047;
   --white-color: #fff;
+
+  --primary-color: #121212;
+  --primary-text: #E0E0E0;
+  --secondary-text: #B0B0B0;
+  --border-color: #444444;
+  --accent-color: #888888;
 }
 
 
 * {
   margin: 0;
   padding: 0;
-  color: #FFF;
-  background-color: #000;
+  color: var(--primary-text);
+  background-color: var(--primary-color);
 }
 
 ::selection {
-  background: #00e676; 
+  background: var(--cyan-color); 
   color: #000;         
 }
 

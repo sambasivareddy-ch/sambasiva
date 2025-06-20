@@ -24,7 +24,7 @@ const BlogPost = () => {
     }, [slug]);
 
     if (!content) {
-        return <div className={styles["blog-not-found"]}>Blog not found</div>;
+        return <div className={styles["blog-not-found"]}>Loading....</div>;
     }
     
     return (

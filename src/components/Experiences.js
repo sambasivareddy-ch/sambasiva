@@ -33,11 +33,11 @@ const Experiences = () => {
       <h2 className={styles["title"]}>Work</h2>
       <div className={styles["experiences_wrapper"]}>
         <div className={styles['experiences']}>
-          <ol className={styles["companies-list_wrapper"]}>
+          {/* <ol className={styles["companies-list_wrapper"]}>
             <li>
               <button className={zohoClasses}>Zoho Corporation</button>
             </li>
-          </ol>
+          </ol> */}
           <Experience exp={experiences[selectedCompany]}/>
         </div>
       </div>

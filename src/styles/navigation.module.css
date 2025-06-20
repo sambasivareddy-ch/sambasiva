@@ -31,7 +31,8 @@
 
 .nav-link:hover, .nav-link:hover > .list-number {
     text-decoration: underline;
-    color: #00e676;
+    color: var(--secondary-text);
+    /* color: #00e676; */
 }
 
 .menu-icon {

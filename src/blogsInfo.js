@@ -11,7 +11,7 @@ const blogs = [
     {
         'id': 'system-design-02',
         'slug': 'system-design-02',
-        'title': '01: System Design - Load Balancing',
+        'title': '02: System Design - Load Balancing',
         'description': 'Second post in the system design series, focusing on load balancing techniques.',
         'date': 'June 19, 2025',
         'domains': ['system-design'],

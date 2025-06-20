@@ -25,7 +25,7 @@
 }
 
 .title {
-  color: #00e676;
+  color: var(--primary-text);
   margin: 10px 0 20px;
   font-size: 35px;
   font-weight: bolder;

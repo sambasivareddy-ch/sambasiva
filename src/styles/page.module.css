@@ -24,7 +24,7 @@
 }
 
 .my-name {
-  color: #00e676;
+  color: var(--primary-text);
 }
 
 .my-role {
@@ -35,7 +35,7 @@
   gap: 10px;
   font-family: var(--font-family-raleway);
   margin: 10px 0 20px;
-  color: #00e676;
+  color: var(--primary-text);
 }
 
 .my-role svg {
@@ -55,29 +55,15 @@
 
 .resume-link, .linkedin-link {
   text-decoration: none;
-  color: #000;
-  border: solid 1px #00e676;
+  color: var(--primary-text);
+  border: solid 1px var(--border-color);
   padding: 10px;
   width: fit-content;
   border-radius: 5px;
 }
 
-.linkedin-link {
-  color: #00e676;
-}
-
-.linkedin-link:hover {
-  color: #000;
-  background-color: #00e676;
-}
-
-.resume-link {
-  background-color: #00e676;
-}
-
-.resume-link:hover {
-  background-color: transparent;
-  color: #00e676;
+.linkedin-link:hover, .resume-link:hover {
+  background-color: var(--border-color);
 }
 
 @keyframes blink-animation {
@@ -173,9 +159,7 @@
 
 .experiences {
   width: 100%;
-  display: grid;
-  grid-template-columns: 30% 70%;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 .companies-list_wrapper {
@@ -212,23 +196,19 @@
 
 .new-experience-wrapper {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
   gap: 10px;
+  padding: 20px;
+  border-top: solid 1px var(--border-color);
+  border-bottom: solid 1px var(--border-color);
 }
 
-.new-experience-wrapper ul {
-  margin: 10px 0;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.new-experience-wrapper ul li {
-  margin: 0 15px;
-}
-
-.new-experience-wrapper h3 {
-  color: #00e676;
+.new-experience-wrapper .designation {
+  font-size: 1.2em;
+  color: var(--primary-text);
+  font-weight: bolder;
 }
 
 .period {
@@ -267,13 +247,22 @@
 }
 
 .title {
-  color: #00e676;
+  color: var(--primary-text);
   margin: 0 0 20px;
   font-size: 35px;
   font-weight: bolder;
   text-transform: capitalize;
   letter-spacing: 2px;
   font-family: var(--font-family-raleway);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.title::before {
+  content: "|";
+  display: block;
+  color: var(--secondary-text);
 }
 
 /* .title::after {
@@ -293,24 +282,22 @@
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 20px 30px;
 }
 
 .skill {
   font-size: 14px;
   border-radius: 5pc;
-  padding: 10px;
   display: flex;
-  gap: 10px;
+  gap: 0 5px;
   justify-content: center;
   align-items: center;
-  background-color: #263238;
-  padding: 10px 15px;
+  margin: 0 15px;
 }
 
 .skill img {
   width: 25px;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 
 .table {
@@ -404,8 +391,13 @@
 }
 
 .project-body h3 a:hover {
-  color: #84fab0;
+  color: var(--secondary-text);
+  text-decoration: underline;
   cursor: pointer;
+}
+
+.project-body h3 a:hover + svg {
+  fill: var(--secondary-text);
 }
 
 .project-body p {
@@ -426,11 +418,11 @@
   border-radius: 5pc;
   margin: 5px;
   font-size: 12px;
-  color: #000;
+  color: var(--primary-text);
   text-align: center;
-  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-  backdrop-filter: blur(0.1px);
+  border: solid 1px var(--border-color);
   overflow-x: scroll;
+  background-color: var(--border-color);
 }
 
 .experience-period {
@@ -450,7 +442,7 @@
 
 .contact-title {
   font-size: 40px;
-  color: #00e676;
+  color: var(--primary-text);
 }
 
 .contact-links {
@@ -471,12 +463,12 @@
 }
 
 .email-link {
-  border: solid 1px #fff;
+  border: solid 1px var(--border-color);
   padding: 10px;
   border-radius: 5px;
   text-decoration: none;
   font-size: 1em;
-  color: #fff;
+  color: var(--primary-text);
 }
 
 .email-link:hover {
@@ -700,6 +692,11 @@
   .pro-wrapper {
     width: 100%;
     height: 350px;
+  }
+  .new-experience-wrapper {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 }
 
