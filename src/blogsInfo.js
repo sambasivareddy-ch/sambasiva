@@ -1,5 +1,14 @@
 const blogs = [
     {
+        'id': 'cp-02',
+        'slug': 'cp-02',
+        'title': 'Next Greater Element',
+        'description': 'Competitive Programming Problem: Find the next greater element for each element in an array.',
+        'date': 'June 20, 2025',
+        'domains': ['competitive-programming', 'stack'],
+        'filename': 'cp-02.md',
+    },
+    {
         'id': 'system-design-02',
         'slug': 'system-design-02',
         'title': '01: System Design - Load Balancing',
