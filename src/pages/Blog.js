@@ -9,21 +9,21 @@ import blogs from "../blogsInfo";
 
 const Blog = () => {
     const [blogTags, setBlogTags] = useState([]);
-    let [initialTags, setInitialTags] = useState([]);
+    const [activeTags, setActiveTags] = useState([]);
+    const [absoluteFilterOn, setAbsoluteFilterOn] = useState(false);
 
 
     useEffect(() => {
         // Initialize blogTags with all unique tags from blogs
         const initialTags = Array.from(new Set(blogs.flatMap(blog => blog.domains)));
         setBlogTags(initialTags);
-        setInitialTags(initialTags);
     }, []);
 
     const handleTagClick = (tag) => {
-        if (blogTags.includes(tag)) {
-            setBlogTags(blogTags.filter((t) => t === tag));
+        if (activeTags.includes(tag)) {
+            setActiveTags(activeTags.filter((t) => t !== tag))
         } else {
-            setBlogTags([...blogTags, tag]);
+            setActiveTags([tag, ...activeTags])
         }
     }
 
@@ -39,30 +39,52 @@ const Blog = () => {
                         / Home
                     </Link>
                 </button>
-                <div className={styles['blog-tags']}>
-                    {blogTags.map((tag) => (
-                        <button
-                            key={tag}
-                            className={`${styles["blog-tag"]} ${blogTags.includes(tag) ? styles["active"] : ""}`}
-                            onClick={() => handleTagClick(tag)}
-                            aria-label={`${tag} filter`}
-                        >
-                            {tag}
-                        </button>
-                    ))}
-                    {blogTags.length !== initialTags.length && (
-                        <button
-                            className={styles["blog-tag_reset"]}
-                            onClick={() => setBlogTags(initialTags)}
-                            aria-label={`reset applied filter`}
-                        >
-                            reset <ClearIcon fontSize="small" />
-                        </button>
-                    )}
+                <div className={styles['blog-header']}>
+                    <label className={styles['filtering-option']}>
+                        <input type="checkbox" aria-label="strict filter" onChange={() => {
+                            setAbsoluteFilterOn(!absoluteFilterOn)
+                        }}/>
+                        Match All Tags (Default: Match Any Tag)
+                    </label>
+                    <div className={styles['blog-tags']}>
+                        {blogTags.map((tag) => (
+                            <button
+                                key={tag}
+                                className={`${styles["blog-tag"]} ${activeTags.includes(tag) ? styles["active"] : ""}`}
+                                onClick={() => handleTagClick(tag)}
+                                aria-label={`${tag} filter`}
+                            >
+                                {tag}
+                            </button>
+                        ))}
+                        {activeTags.length !== 0 && (
+                            <button
+                                className={styles["blog-tag_reset"]}
+                                onClick={() => setActiveTags([])}
+                                aria-label={`reset applied filter`}
+                            >
+                                reset <ClearIcon fontSize="small" />
+                            </button>
+                        )}
+                    </div>
                 </div>
                 <div className={styles["blogs"]}>
                     {blogs.map((blog) => {
-                        const isTagActive = blogTags.length === 0 || blogTags.some(tag => blog.domains.includes(tag));
+                        let isTagActive = false;
+                        if (!absoluteFilterOn) {
+                            if (activeTags.length !== 0) {
+                                isTagActive = activeTags.some(tag => blog.domains.includes(tag));
+                            } else {
+                                isTagActive = blogTags.some(tag => blog.domains.includes(tag));
+                            }
+                        } else {
+                            if (activeTags.length !== 0) {
+                                isTagActive = activeTags.every(tag => blog.domains.includes(tag));
+                            } else {
+                                isTagActive = blogTags.some(tag => blog.domains.includes(tag));
+                            }
+                        }
+
                         return (
                             isTagActive && (
                                 <BlogComponent

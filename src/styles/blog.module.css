@@ -236,6 +236,10 @@ img {
     cursor: pointer;
 }
 
+.active {
+    background-color: var(--border-color);
+}
+
 .blog-tag_reset {
     display: flex;
     align-items: center;
@@ -249,8 +253,14 @@ img {
 }
 
 .blog-tag:hover {
-    background-color: var(--white-color);
+    background-color: var(--border-color);
     color: #000;
+}
+
+.filtering-option {
+    display: flex;
+    font-family: var(--font-family-pop);
+    gap: 5px;
 }
 
 .blog-comp__link {
