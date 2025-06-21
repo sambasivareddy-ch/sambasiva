@@ -21,7 +21,7 @@ const Skills = (props) => {
           React.js
         </li>
         <li className={styles["skill"]}>
-          <img src={"https://skillicons.dev/icons?i=typescript"} alt="typescript"/>
+          <img src={"https://skillicons.dev/icons?i=typescript"} alt="ts"/>
           Typescript
         </li>
         <li className={styles["skill"]}>
@@ -45,7 +45,7 @@ const Skills = (props) => {
           Python
         </li>
         <li className={styles["skill"]}>
-          <img src={"https://skillicons.dev/icons?i=java"} alt="java"/>
+          <img src={"https://skillicons.dev/icons?i=java"} alt="java-programing"/>
           Java
         </li>
         <li className={styles["skill"]}>
