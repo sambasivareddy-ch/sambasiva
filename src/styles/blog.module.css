@@ -34,9 +34,11 @@
 
 .blogs {
     width: 100%;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    overflow: scroll;
 }
 
 .blog-comp__wrapper {

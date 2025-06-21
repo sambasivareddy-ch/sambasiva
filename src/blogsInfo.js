@@ -1,5 +1,14 @@
 const blogs = [
     {
+        'id': 'cp-04',
+        'slug': 'cp-04',
+        'title': 'Check for Balanced Parenthesis',
+        'description': 'Competitive Programming Problem: Check for Balanced Parenthesis',
+        'date': 'June 21, 2025',
+        'domains': ['competitive-programming', 'stack'],
+        'filename': 'cp-04.md',
+    },
+    {
         'id': 'cp-03',
         'slug': 'cp-03',
         'title': 'Stack - Linear Data Structure',
