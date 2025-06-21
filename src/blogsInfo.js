@@ -1,5 +1,14 @@
 const blogs = [
     {
+        'id': 'math-01',
+        'slug': 'math-01',
+        'title': 'Probability & Expected Values',
+        'description': 'A comprehensive guide to understanding probability and expected values in mathematics.',
+        'date': 'June 21, 2025',
+        'domains': ['math'],
+        'filename': 'math-01.md',
+    },
+    {
         'id': 'cp-02',
         'slug': 'cp-02',
         'title': 'Next Greater Element',

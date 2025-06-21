@@ -9,5 +9,5 @@
 .logo-letter {
     text-decoration: none;
     font-weight: bold;
-    color: #FFF;
+    color: var(--primary-text);
 }

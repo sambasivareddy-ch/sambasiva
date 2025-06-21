@@ -70,6 +70,7 @@
     width: fit-content;
     padding: 10px 20px;
     background-color: #212121;
+    color: #fff;
     border-radius: 5pc;
 }
 
@@ -83,7 +84,7 @@
     }
     .project-name {
         font-size: 60px;
-        color: #00e676;
+        color: var(--primary-text);
         margin: 10px 0;
     }
 

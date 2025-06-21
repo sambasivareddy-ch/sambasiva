@@ -18,7 +18,7 @@
 }
 
 .nav-link {
-    color: #FFF;
+    color: var(--primary-text);
     text-decoration: none;
     letter-spacing: 1px;
     font-size: 14px;
@@ -31,7 +31,6 @@
 
 .nav-link:hover, .nav-link:hover > .list-number {
     text-decoration: underline;
-    color: var(--secondary-text);
     /* color: #00e676; */
 }
 
