@@ -9,31 +9,31 @@ const Skills = (props) => {
       <h2 className={styles["title"]}>Skills</h2>
       <ol className={styles["skills-list"]}>
         <li className={styles["skill"]}>
-          <img src={"https://skillicons.dev/icons?i=nodejs"} alt="node.js"/>
+          <img src={"https://skillicons.dev/icons?i=nodejs"} alt="node"/>
           Node.js
         </li>
         <li className={styles["skill"]}>
-          <img src={"https://skillicons.dev/icons?i=expressjs"} alt="express.js"/>
+          <img src={"https://skillicons.dev/icons?i=expressjs"} alt="express"/>
           Express.js
         </li>
         <li className={styles["skill"]}>
           <img src={"https://skillicons.dev/icons?i=react"} alt="react"/>
-          React
+          React.js
         </li>
         <li className={styles["skill"]}>
           <img src={"https://skillicons.dev/icons?i=typescript"} alt="typescript"/>
           Typescript
         </li>
         <li className={styles["skill"]}>
-          <img src={"https://skillicons.dev/icons?i=docker"} alt="docker"/>
+          <img src={"https://skillicons.dev/icons?i=docker"} alt="dockers"/>
           Docker
         </li>
         <li className={styles["skill"]}>
-          <img src={"https://skillicons.dev/icons?i=kubernetes"} alt="kubernetes"/>
+          <img src={"https://skillicons.dev/icons?i=kubernetes"} alt="k8s"/>
           Kubernetes
         </li>
         <li className={styles["skill"]}>
-          <img src={"https://skillicons.dev/icons?i=javascript"} alt="javascript"/>
+          <img src={"https://skillicons.dev/icons?i=javascript"} alt="js"/>
           Javascript
         </li>
         <li className={styles["skill"]}>
@@ -58,19 +58,15 @@ const Skills = (props) => {
         </li>
         <li className={styles["skill"]}>
           <img src={"https://skillicons.dev/icons?i=postgres"} alt="postgres"/>
-          Postgres
+          PostgreSQL
         </li>
         <li className={styles["skill"]}>
-          <img src={"https://skillicons.dev/icons?i=mongodb"} alt="mongodb"/>
+          <img src={"https://skillicons.dev/icons?i=mongodb"} alt="mongo"/>
           MongoDB
         </li>
         <li className={styles["skill"]}>
-          <img src={"https://skillicons.dev/icons?i=git"} alt="git"/>
+          <img src={"https://skillicons.dev/icons?i=git"} alt="version-control"/>
           Git
-        </li>
-        <li className={styles["skill"]}>
-          <img src={"https://skillicons.dev/icons?i=figma"} alt="figma"/>
-          Figma
         </li>
       </ol>
     </div>

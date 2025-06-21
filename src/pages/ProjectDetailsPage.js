@@ -32,26 +32,26 @@ const ProjectDetailsPage = (props) => {
                         {projectInfo.project_name}
                     </h1>
                     <div className={styles['project-links']}>
-                        <a href={projectInfo.gitlink} target='_blank' rel="noreferrer">
+                        <a href={projectInfo.gitlink} target='_blank' rel="noreferrer" aria-label='github'>
                             <GitHubIcon/>
                         </a>
-                        <a href={projectInfo.link} targt="_blank" rel="noreferrer">
+                        <a href={projectInfo.link} targt="_blank" rel="noreferrer" aria-label='open in new tab'>
                             <OpenInNewIcon/>
                         </a>
                     </div>
                     {projectInfo.link && <div className={styles['project-img']}>
-                        <a href={projectInfo.link} target='_blank' rel="noreferrer">
+                        <a href={projectInfo.link} target='_blank' rel="noreferrer" aria-label='project preview'>
                             {id === 'project2' && 
-                                <img src={spotifyImage} alt="Spotify Image"/>
+                                <img src={spotifyImage} alt="Spotify"/>
                             }
                             {id === 'project3' && 
-                                <img src={nextbuyImage} alt="Next Buy Image"/>
+                                <img src={nextbuyImage} alt="Next Buy"/>
                             }
                             {id === 'project5' && 
-                                <img src={meetingNotesImage} alt="Meeting notes Image"/>
+                                <img src={meetingNotesImage} alt="Meeting notes"/>
                             }
                             {id === 'project7' && 
-                                <img src={clubManagerImage} alt="Club Manager Image"/>
+                                <img src={clubManagerImage} alt="Club Manager"/>
                             }
                         </a>
                     </div>}

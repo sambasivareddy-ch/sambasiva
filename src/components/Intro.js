@@ -1,18 +1,10 @@
 import React from "react";
 
 import styles from "../styles/page.module.css";
-import CodeIcon from '@mui/icons-material/Code';
-import DataObjectIcon from '@mui/icons-material/DataObject';
-// import resume from "../assests/samba_resume.pdf";
 
 const Intro = () => {
   return (
     <div className={styles["intro-wrapper"]} id="about">
-      {/* <p className={styles["welcome-msg"]}>
-        <h3 className={styles["wishes"]}>Namaste! I'm <b className={styles['my-name']}>Samba Siva Reddy</b></h3>
-      </p>
-      <h1 className={styles["my-role"]}> Software Developer</h1> */}
-      {/* <p><b>I build scalable applications for Web & Mobile.</b></p> */}
       <p className={styles["intro-me"]}>
         <p className={styles["about-me"]}>
           I'm a Full Stack Web Developer specializing in the MERN stack, with backend expertise in Golang and hands-on experience with Docker-based containerization.
@@ -28,6 +20,7 @@ const Intro = () => {
           className={styles["linkedin-link"]}
           target="_blank"
           rel="noreferrer"
+          aria-label="linkedin"
         >
           LinkedIn
         </a>

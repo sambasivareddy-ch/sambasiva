@@ -2,7 +2,6 @@ import React, { useState, useEffect} from "react";
 import { useParams } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import { Link } from "react-router-dom";
-// import matter from "gray-matter/dist/gray-matter.browser.js";
 
 import blogs from "../blogsInfo";
 import styles from "../styles/blog.module.css";
@@ -10,7 +9,6 @@ import styles from "../styles/blog.module.css";
 const BlogPost = () => {
     const { slug } = useParams();
     const [content, setContent] = useState("");
-    const [meta, setMeta] = useState({});
 
     useEffect(() => {
         const post = blogs.find((p) => p.slug === slug);

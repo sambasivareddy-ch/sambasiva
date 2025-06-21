@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-import HomeIcon from "@mui/icons-material/Home";
 import ClearIcon from '@mui/icons-material/Clear';
 import BlogComponent from "../components/BlogComponent";
 import styles from "../styles/blog.module.css";
@@ -31,7 +30,7 @@ const Blog = () => {
     return (
         <div className={styles["blog-wrapper"]}>
             <div className={styles["blog-main"]}>
-                <button className={styles["home-btn"]}>
+                <button className={styles["home-btn"]} aria-label="navigate to home">
                     <Link
                         to="/"
                         className={styles["home-link"]}
@@ -46,6 +45,7 @@ const Blog = () => {
                             key={tag}
                             className={`${styles["blog-tag"]} ${blogTags.includes(tag) ? styles["active"] : ""}`}
                             onClick={() => handleTagClick(tag)}
+                            aria-label={`${tag} filter`}
                         >
                             {tag}
                         </button>
@@ -54,6 +54,7 @@ const Blog = () => {
                         <button
                             className={styles["blog-tag_reset"]}
                             onClick={() => setBlogTags(initialTags)}
+                            aria-label={`reset applied filter`}
                         >
                             reset <ClearIcon fontSize="small" />
                         </button>

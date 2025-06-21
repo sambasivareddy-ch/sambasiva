@@ -2,7 +2,6 @@ import React from "react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import TwitterIcon from '@mui/icons-material/Twitter';
 
 import styles from "../styles/page.module.css";
 
@@ -17,6 +16,7 @@ const Contact = () => {
       <a
         href="mailto:sambasivareddychinta@gmail.com"
         className={styles["email-link"]}
+        aria-label="email address"
       >
         Say Hello
       </a>
@@ -26,6 +26,7 @@ const Contact = () => {
             href="https://www.linkedin.com/in/v-n-g-samba-siva-reddy-chinta-78a9651b2/"
             rel="noreferrer"
             target="_blank"
+            aria-label="linkedin"
           >
             <LinkedInIcon />
           </a>
@@ -35,32 +36,22 @@ const Contact = () => {
             href="https://www.instagram.com/samsr.ch/"
             rel="noreferrer"
             target="_blank"
+            aria-label="instagram"
           >
             <InstagramIcon />
           </a>
         </li>
-        {/* <li>
-          <a
-            href="https://x.com/sambasivadev"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <TwitterIcon />
-          </a>
-        </li> */}
         <li>
           <a
             href="https://github.com/sambasivareddy-ch"
             rel="noreferrer"
             target="_blank"
+            aria-label="github"
           >
             <GitHubIcon />
           </a>
         </li>
       </ul>
-      {/* <p className={styles["attribution"]}>
-        Get Inspiration from Brittany Chiang
-      </p> */}
     </div>
   );
 };

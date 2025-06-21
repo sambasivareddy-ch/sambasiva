@@ -35,7 +35,7 @@ const Navigation = () => {
     <header className={classes}>
       <div className={styles["header"]}>
         <Logo />
-        <button className={styles["icon-btn"]} onClick={navOpenHandler}>
+        <button className={styles["icon-btn"]} onClick={navOpenHandler} aria-label="page navigation">
           <MenuIcon className={styles["menu-icon"]} />
         </button>
       </div>
@@ -48,25 +48,25 @@ const Navigation = () => {
             </a>
           </li>
           <li>
-            <a className={styles["nav-link"]} href="#skills">
+            <a className={styles["nav-link"]} href="#skills" aria-label="skill section">
               <span className={styles["list-number"]}>02.</span>
               Skills
             </a>
           </li>
           <li>
-            <a className={styles["nav-link"]} href="#experience">
+            <a className={styles["nav-link"]} href="#experience" aria-label="experience section">
               <span className={styles["list-number"]}>03.</span>
               Work
             </a>
           </li>
           <li>
-            <a className={styles["nav-link"]} href="#projects">
+            <a className={styles["nav-link"]} href="#projects" aria-label="projects section">
               <span className={styles["list-number"]}>04.</span>
               Projects
             </a>
           </li>
           <li>
-            <a className={styles["nav-link"]} href="#contact">
+            <a className={styles["nav-link"]} href="#contact" aria-label="contact section">
               <span className={styles["list-number"]}>05.</span>
               Contact
             </a>
@@ -82,6 +82,7 @@ const Navigation = () => {
               href="https://github.com/sambasivareddy-ch"
               rel="noreferrer"
               target="_blank"
+              aria-label="github"
             >
               <GitHubIcon />
             </a>

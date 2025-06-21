@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import FolderIcon from "@mui/icons-material/Folder";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
-import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 import styles from "../styles/page.module.css";
 
 const Project = (props) => {
@@ -13,25 +12,14 @@ const Project = (props) => {
       <div className={styles["project-header"]}>
         <FolderIcon />
         <div className={styles["header-meta"]}>
-          {/* {props.project_details.preview && props.project_details.link != "" &&
-            <a
-              href={props.project_details.link}
-              target="_blank"
-              rel="noreferrer"
-              className={styles["github-link"]}
-            >
-              <OpenInNewIcon/>
-            </a>
-          } */}
           <a
             href={props.project_details.gitlink}
             target="_blank"
             rel="noreferrer"
             className={styles["github-link"]}
+            aria-label="github"
           >
             <GitHubIcon fontSize="medium" />
-            {/* <span>{props.project_details.status === "Completed"? "Github": "In Progress"}</span> */}
-            {/* <ArrowOutwardIcon /> */}
           </a>
         </div>
       </div>
