@@ -1,5 +1,14 @@
 const blogs = [
     {
+        'id': 'cp-03',
+        'slug': 'cp-03',
+        'title': 'Stack - Linear Data Structure',
+        'description': 'Competitive Programming Problem: Stack linear data structure implementation',
+        'date': 'June 21, 2025',
+        'domains': ['competitive-programming', 'dsa', 'stack'],
+        'filename': 'cp-03.md',
+    },
+    {
         'id': 'math-01',
         'slug': 'math-01',
         'title': 'Probability & Expected Values',
