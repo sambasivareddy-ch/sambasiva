@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 
 import ClearIcon from '@mui/icons-material/Clear';
 import BlogComponent from "../components/BlogComponent";
@@ -30,14 +29,8 @@ const Blog = () => {
     return (
         <div className={styles["blog-wrapper"]}>
             <div className={styles["blog-main"]}>
-                <button className={styles["home-btn"]} aria-label="navigate to home">
-                    <Link
-                        to="/"
-                        className={styles["home-link"]}
-                        fontSize="large"
-                    >
-                        / Home
-                    </Link>
+                <button className={styles["home-btn"]} aria-label="navigate to my portfolio">
+                    <a href="https://sambasiva.vercel.app/" target="_blank" rel="noreferrer">Visit my Portfolio</a>
                 </button>
                 <div className={styles['blog-header']}>
                     <label className={styles['filtering-option']}>

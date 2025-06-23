@@ -27,7 +27,7 @@ const BlogPost = () => {
     
     return (
         <div className={styles["blog-post-wrapper"]}>
-            <Link to={'/blog'}>/ Blogs</Link>
+            <Link to={'/'}>/ Home</Link>
             <ReactMarkdown>
                 {content}
             </ReactMarkdown>
