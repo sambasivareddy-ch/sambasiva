@@ -72,10 +72,10 @@ const Navigation = () => {
             </a>
           </li>
           <li>
-            <Link className={styles["nav-link"]} to="/blog">
+            <a className={styles["nav-link"]} href="https://bysiva.vercel.app/" aria-label="contact section">
               <span className={styles["list-number"]}>06.</span>
               Blog
-            </Link>
+            </a>
           </li>
           <li>
             <a
