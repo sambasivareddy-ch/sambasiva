@@ -106,7 +106,8 @@
 .edu-wrapper,
 .projects-wrapper,
 .contact-wrapper,
-.skills-wrapper {
+.skills-wrapper,
+.blogs-wrapper_main {
   width: 80%;
   margin: 70px auto;
 }
@@ -115,9 +116,14 @@
 .edu-wrapper .caption ,
 .projects-wrapper .caption ,
 .contact-wrapper .caption ,
-.skills-wrapper .caption {
-  color: #fff;
+.skills-wrapper .caption,
+.blogs-wrapper_main .caption {
+  color: var(--primary-text);
   font-family: var(--font-family-raleway);
+}
+
+.blogs-wrapper {
+  margin: 20px 0;
 }
 
 .experience {
@@ -582,7 +588,8 @@
   .experience-wrapper,
   .projects-wrapper,
   .intro-wrapper,
-  .skills-wrapper {
+  .skills-wrapper,
+  .blogs-wrapper_main {
     width: 90%;
   }
 

@@ -29,7 +29,7 @@
 }
 
 .blog-main {
-    width: 80%;
+    width: 60%;
 }
 
 .blogs {
@@ -268,6 +268,17 @@ img {
     color: var(--primary-text)
 }
 
+.heatmap {
+    /* transform: scale(0.8); */
+    margin: 10px 0;
+}
+
+.color-empty { fill: #424242; }
+.color-scale-1 { fill: #ffd180; }
+.color-scale-2 { fill: #ffab40; }
+.color-scale-3 { fill: #ff9100; }
+.color-scale-4 { fill: #ff6d00; }
+
 @media screen and (min-width: 300px) and (max-width: 600px) {
     .blog-main, .blog-post-wrapper  {
         width: 95%;
@@ -286,6 +297,9 @@ img {
     }
     .blog-comp__domains {
         justify-content: flex-start;
+    }
+    .heatmap {
+        display: none;
     }
 }
 
