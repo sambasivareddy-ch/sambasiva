@@ -14,6 +14,7 @@
 .navigation {
     display: flex;
     gap:  0 20px;
+    align-items: center;
     list-style: none;
 }
 
@@ -56,6 +57,21 @@
     align-items: center;
     padding: 20px 0;
     z-index: 999; 
+}
+
+.blog-btn {
+    border: solid 2px var(--border-color);
+    padding: 10px;
+    border-radius: 5pc;
+    cursor: pointer;
+}
+
+.blog-btn:hover {
+    transform: scale(0.96);
+}
+
+.blog-btn:hover a {
+    text-decoration: none;
 }
 
 @media screen and (max-width: 599px) {

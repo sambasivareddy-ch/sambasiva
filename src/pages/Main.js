@@ -7,7 +7,7 @@ import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
 import Experiences from "../components/Experiences";
-import BlogSection from "../components/BlogSection";
+// import BlogSection from "../components/BlogSection";
 
 const Main = () => {
   return (
@@ -18,7 +18,7 @@ const Main = () => {
       <Intro />
       <Skills />
       <Experiences />
-      <BlogSection />
+      {/* <BlogSection /> */}
       <Projects />
       <Contact />
     </div>
