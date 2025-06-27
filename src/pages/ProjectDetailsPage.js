@@ -12,6 +12,7 @@ import spotifyImage from '../assests/spotify.png';
 import nextbuyImage from '../assests/nextbuy.png';
 import meetingNotesImage from '../assests/meetingNotes.png';
 import clubManagerImage from '../assests/clubmanager.png';
+import blogImage from '../assests/blog.png';
 
 const ProjectDetailsPage = (props) => {
     const { id } = useParams();
@@ -41,6 +42,9 @@ const ProjectDetailsPage = (props) => {
                     </div>
                     {projectInfo.link && <div className={styles['project-img']}>
                         <a href={projectInfo.link} target='_blank' rel="noreferrer" aria-label='project preview'>
+                            {
+                                id === 'project1' && <img src={blogImage} alt="Blog"/>
+                            }
                             {id === 'project2' && 
                                 <img src={spotifyImage} alt="Spotify"/>
                             }

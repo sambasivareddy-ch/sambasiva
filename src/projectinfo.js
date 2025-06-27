@@ -1,14 +1,19 @@
 const PROJECTS_DATA = [
     {
         id: 'project1',
-        project_name: "Bloggie",
-        link: "https://testflight.apple.com/join/fEEEqPXk",
-        gitlink: "https://github.com/sambasivareddy-ch/Bloggie",
+        project_name: "Blog Page",
+        link: "https://bysiva.vercel.app/",
+        gitlink: "https://github.com/sambasivareddy-ch/bysiva",
         description:
-            "An mobile application which helps the users to kickstart their blogging journey by allowing them to write blogs and journals",
-        skills: ["React-Native", "Firebase Authentication", "Firebase RealTime DB"],
+            "A simple blogging app to post my technical articles, blogs and codes etc",
+        skills: ["React.Js"],
         status: "Completed",
         preview: true,
+        features: [
+            "A Simple Web App for my techincal & personal writing",
+            "Includes Tag based filtering",
+            "We can able to filter the blogs on OR of tags & AND of tags",
+        ]
     },
     {
         id: 'project2',
