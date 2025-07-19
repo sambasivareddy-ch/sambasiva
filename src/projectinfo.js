@@ -2,17 +2,19 @@ const PROJECTS_DATA = [
     {
         id: 'project1',
         project_name: "Blog Page",
-        link: "https://bysiva.vercel.app/",
-        gitlink: "https://github.com/sambasivareddy-ch/bysiva",
+        link: "https://bysiva.blog/",
+        gitlink: "https://github.com/sambasivareddy-ch/writes-by-siva",
         description:
-            "A simple blogging app to post my technical articles, blogs and codes etc",
-        skills: ["React.Js"],
+            "This is a simple blogging application designed to share technical articles, coding solutions, and developer-focused blogs. It covers trending topics in software development such as AI/ML, MERN stack, and modern engineering practices. The blog section includes detailed posts on system design and core computer science concepts, while the coding section focuses on competitive programming with practical solutions and explanations. Each post is structured for clarity and usefulness, helping readers quickly grasp key ideas. Whether you’re a beginner or an experienced developer, the goal is to provide a clean, organized platform to learn, explore, and grow in the tech field.",
+        skills: ["React.Js", "Next.js", "CSS (Modules)"],
         status: "Completed",
         preview: true,
         features: [
             "A Simple Web App for my techincal & personal writing",
-            "Includes Tag based filtering",
-            "We can able to filter the blogs on OR of tags & AND of tags",
+            "✅ Tag-Based Filtering: Match (all/any) selected blogs",
+            "🔗 Easy Link Sharing: Share with your friends",
+            "🚀 SEO-Friendly Design",
+            "📄 Pagination Support: Navigate through large number of posts at ease"
         ]
     },
     {

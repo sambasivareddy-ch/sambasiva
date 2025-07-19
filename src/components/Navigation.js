@@ -3,7 +3,6 @@ import styles from "../styles/navigation.module.css";
 import Logo from "./Logo";
 import MenuIcon from "@mui/icons-material/Menu";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import { Link } from 'react-router-dom'; 
 
 const Navigation = () => {
   let isNavOpen = false;
@@ -72,7 +71,7 @@ const Navigation = () => {
             </a>
           </li>
           <li className={styles['blog-btn']}>
-            <a className={styles["nav-link"]} href="https://bysiva.vercel.app" aria-label="portfolio" target="_blank" rel="noreferrer">
+            <a className={styles["nav-link"]} href="https://bysiva.blog" aria-label="portfolio" target="_blank" rel="noreferrer">
               My Writes
             </a>
           </li>
