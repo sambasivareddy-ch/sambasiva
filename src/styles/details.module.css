@@ -47,12 +47,14 @@
 }
 
 .project-skills,
-.project-features {
+.project-features,
+.project-insights {
     margin: 20px 0;
 }
 
 .project-skills h3,
-.project-features h3 {
+.project-features h3,
+.project-insights h3 {
     font-size: 28px;
     font-family: var(--font-family-raleway);
     color: var(--primary-text);
@@ -74,7 +76,7 @@
     border-radius: 5pc;
 }
 
-.project-features li {
+.project-features li, .project-insights li {
     margin: 10px 20px;
 }
 

@@ -15,7 +15,13 @@ const PROJECTS_DATA = [
             "🔗 Easy Link Sharing: Share with your friends",
             "🚀 SEO-Friendly Design",
             "📄 Pagination Support: Navigate through large number of posts at ease"
-        ]
+        ],
+        insights: {
+            'performance': '99',
+            'accessibility': '100',
+            'best-practices': '96',
+            'seo': '100'
+        }
     },
     {
         id: 'project2',

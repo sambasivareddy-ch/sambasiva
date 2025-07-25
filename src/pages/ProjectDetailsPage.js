@@ -78,6 +78,15 @@ const ProjectDetailsPage = (props) => {
                             })}
                         </ul>
                     </div>}
+                    {projectInfo.insights && <div className={styles['project-insights']}>
+                        <h3>PageSpeed Insights</h3>
+                        <ul>
+                            <li>🚀 Performance: { projectInfo.insights.performance }%</li>
+                            <li>🦮 Accessibility: { projectInfo.insights.accessibility }%</li>
+                            <li>🛡️ Best Practices: {projectInfo.insights['best-practices']}%</li>
+                            <li>🔍 SEO: { projectInfo.insights.seo }%</li>
+                        </ul>
+                    </div>}
                 </div>
             </div>
         </div>
