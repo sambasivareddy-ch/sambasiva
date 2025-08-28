@@ -78,6 +78,22 @@ const ProjectDetailsPage = (props) => {
                             })}
                         </ul>
                     </div>}
+                    {projectInfo?.frontend && <div className={styles['project-features']}>
+                        <h3>Frontend Features</h3>
+                        <ul>
+                            {projectInfo.frontend.map((feature) => {
+                                return <li key={Math.random()}>{feature}</li>
+                            })}
+                        </ul>
+                    </div>}
+                    {projectInfo?.backend && <div className={styles['project-features']}>
+                        <h3>Backend Features</h3>
+                        <ul>
+                            {projectInfo.backend.map((feature) => {
+                                return <li key={Math.random()}>{feature}</li>
+                            })}
+                        </ul>
+                    </div>}
                     {projectInfo.insights && <div className={styles['project-insights']}>
                         <h3>PageSpeed Insights</h3>
                         <ul>

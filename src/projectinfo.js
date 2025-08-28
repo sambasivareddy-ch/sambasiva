@@ -10,8 +10,8 @@ const PROJECTS_DATA = [
         skills: ["React.Js", "Next.js", "CSS", "Node.js", "Express.js", "PostgreSQL", "Redis", "Gemini AI"],
         status: "Completed",
         preview: true,
-        features: [
-            "Frontend (Next.js + React)",
+        features: [],
+        frontend: [
             "A Simple Web App for my techincal & personal writing",
             "✅ Tag-Based Filtering: Match (all/any) selected blogs",
             "🔗 Easy Link Sharing: Share posts seamlessly with others",
@@ -20,10 +20,15 @@ const PROJECTS_DATA = [
             "👍 Likes & Views Tracking: Engage with blogs and track popularity",
             "✨ TL;DR Summaries: Quick highlights for faster reading",
             "📩 Newsletter Subscription: Stay updated with the latest blogs",
-            "Backend (Express + PostgreSQL + Redis + Pug)",
+            "🔎 Debounced Search: Search across the large number of posts with keywords",
+            "🌙 Switch between the light and dark themes at your convenience."
+        ],
+        backend: [
             "🛠️ Personalized Dashboard: Efficiently post and manage blogs",
-            "🔄 Reset & Visibility Controls: Update blog status with ease",
-            "📊 Application Stats: Track views, likes, and newsletter performance"
+            "🔄 Reset & Visibility Controls: Update blog details with ease",
+            "📊 Application Stats: Track views, likes, and newsletter performance",
+            "📩 Newsletter Subscription: Sending mails to the subscribers on every new Blog",
+            "📣 Discord Notifications on post and login details of Admin who loggedin into the Page"
         ],
         insights: {
             performance: "99",
