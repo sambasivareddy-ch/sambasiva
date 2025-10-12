@@ -33,16 +33,6 @@ const Contact = () => {
         </li>
         <li>
           <a
-            href="https://www.instagram.com/samsr.ch/"
-            rel="noreferrer"
-            target="_blank"
-            aria-label="instagram"
-          >
-            <InstagramIcon />
-          </a>
-        </li>
-        <li>
-          <a
             href="https://github.com/sambasivareddy-ch"
             rel="noreferrer"
             target="_blank"
