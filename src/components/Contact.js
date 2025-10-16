@@ -11,15 +11,15 @@ const Contact = () => {
       <h2 className={styles["contact-title"]}>Get In Touch</h2>
       <p className={styles["contact-message"]}>
         Hello There! I'm open for Opportunity. If you feel I'm eligible or just
-        want to say Hi, drop an email. I will get back with reply. Thank You!
+        want to say Hi on LinkedIn. I will get back with reply. Thank You!
       </p>
-      <a
+      {/* <a
         href="mailto:sambasivareddychinta@gmail.com"
         className={styles["email-link"]}
         aria-label="email address"
       >
         Say Hello
-      </a>
+      </a> */}
       <ul className={styles["contact-links"]}>
         <li>
           <a
