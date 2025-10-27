@@ -21,7 +21,9 @@ const PROJECTS_DATA = [
             "✨ TL;DR Summaries: Quick highlights for faster reading",
             "📩 Newsletter Subscription: Stay updated with the latest blogs",
             "🔎 Debounced Search: Search across the large number of posts with keywords",
-            "🌙 Switch between the light and dark themes at your convenience."
+            "🌙 Switch between the light and dark themes at your convenience.",
+            "🥳 Users can react to the blog with following emojis ❤️, 😂, 🔥, 😡",
+            "✔️ User can sort the blogs based on 'Blog Post (Asc/Desc), Most Viewed, Most Reacted'."
         ],
         backend: [
             "🛠️ Personalized Dashboard: Efficiently post and manage blogs",
