@@ -23,7 +23,9 @@ const PROJECTS_DATA = [
             "🔎 Debounced Search: Search across the large number of posts with keywords",
             "🌙 Switch between the light and dark themes at your convenience.",
             "🥳 Users can react to the blog with following emojis ❤️, 😂, 🔥, 😡",
-            "✔️ User can sort the blogs based on 'Blog Post (Asc/Desc), Most Viewed, Most Reacted'."
+            "✔️ User can sort the blogs based on 'Blog Post (Asc/Desc), Most Viewed, Most Reacted'.",
+            "📩 User's can now add the comments to each blog (powered by Remarks42) hosted by ourselves, so data will be with us.",
+            "→ To add the comments, user should be login using their Gmail/Github to moderate the spam comments."
         ],
         backend: [
             "🛠️ Personalized Dashboard: Efficiently post and manage blogs",
