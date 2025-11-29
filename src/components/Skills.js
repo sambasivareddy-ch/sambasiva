@@ -9,6 +9,10 @@ const Skills = (props) => {
       <h2 className={styles["title"]}>Skills</h2>
       <ol className={styles["skills-list"]}>
         <li className={styles["skill"]}>
+          <img src={"https://skillicons.dev/icons?i=postgres"} alt="postgres"/>
+          PostgreSQL
+        </li>
+        <li className={styles["skill"]}>
           <img src={"https://skillicons.dev/icons?i=nodejs"} alt="node"/>
           Node.js
         </li>
@@ -55,10 +59,6 @@ const Skills = (props) => {
         <li className={styles["skill"]}>
           <img src={"https://skillicons.dev/icons?i=css"} alt="css"/>
           CSS3
-        </li>
-        <li className={styles["skill"]}>
-          <img src={"https://skillicons.dev/icons?i=postgres"} alt="postgres"/>
-          PostgreSQL
         </li>
         <li className={styles["skill"]}>
           <img src={"https://skillicons.dev/icons?i=mongodb"} alt="mongo"/>

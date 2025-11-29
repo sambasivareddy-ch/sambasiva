@@ -1,0 +1,21 @@
+.my-role {
+    font-size: 5rem;
+    font-weight: 600;
+    white-space: nowrap;
+    color: var(--green-color);
+}
+  
+.cursor {
+    display: inline-block;
+    width: 2px;
+    background: #000;
+    margin-left: 4px;
+    animation: blink 0.7s steps(1) infinite;
+}
+  
+@keyframes blink {
+    50% {
+      opacity: 0;
+    }
+}
+  
