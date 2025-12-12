@@ -1,21 +1,54 @@
-.my-role {
-    font-size: 5rem;
-    font-weight: 600;
-    white-space: nowrap;
-    color: var(--green-color);
+/* styles/typingtitles.module.css */
+
+.titleWrapper {
+    /* makes sure the title can't overflow the page horizontally */
+    max-width: 100%;
+    padding: 0 1rem; /* small horizontal padding on mobile */
+    box-sizing: border-box;
+    display: block;
+    overflow: visible; /* keep visible for typing caret */
 }
-  
+
+/* Responsive font sizing - shrinks on small screens and caps on large ones */
+.my-role {
+    font-size: clamp(
+        1.6rem,
+        6.5vw,
+        5rem
+    ); /* min 1.6rem, fluid by viewport width, max 5rem */
+    font-weight: 600;
+    line-height: 1;
+    margin: 0;
+    color: var(--cyan-color);
+    /* Prefer not to wrap on mid/large screens, but allow wrapping on very small screens */
+    white-space: nowrap;
+    overflow: hidden; /* prevents horizontal scroll from very long words */
+    text-overflow: clip;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* If the title is still too long on very small screens, allow it to wrap */
+@media (max-width: 380px) {
+    .my-role {
+        white-space: normal;
+        word-break: break-word;
+    }
+}
+
+/* Cursor styling (small device-friendly) */
 .cursor {
     display: inline-block;
     width: 2px;
-    background: #000;
+    height: 1.05em;
+    background: currentColor;
     margin-left: 4px;
     animation: blink 0.7s steps(1) infinite;
+    vertical-align: bottom;
 }
-  
+
 @keyframes blink {
     50% {
-      opacity: 0;
+        opacity: 0;
     }
 }
-  

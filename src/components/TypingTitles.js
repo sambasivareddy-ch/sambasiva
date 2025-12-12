@@ -1,3 +1,4 @@
+// components/TypingTitles.jsx
 import { useState, useEffect } from "react";
 import styles from "../styles/typingtitles.module.css";
 
@@ -18,6 +19,7 @@ export default function TypingTitles() {
       );
 
       if (!isDeleting && displayText === current) {
+        // start deleting after a pause
         setTimeout(() => setIsDeleting(true), 1200);
       }
 
@@ -28,12 +30,14 @@ export default function TypingTitles() {
     }, speed);
 
     return () => clearTimeout(handler);
-  }, [displayText, isDeleting, titles, index]);
+  }, [displayText, isDeleting, index, titles]);
 
   return (
-    <h1 className={styles["my-role"]}>
-      {displayText}
-      <span className={styles.cursor}>|</span>
-    </h1>
+    <div className={styles.titleWrapper}>
+      <h1 className={styles["my-role"]} aria-live="polite">
+        {displayText}
+        <span className={styles.cursor} aria-hidden="true">|</span>
+      </h1>
+    </div>
   );
 }

@@ -5,9 +5,9 @@ const PROJECTS_DATA = [
         link: "https://bysiva.blog/",
         gitlink: "https://github.com/sambasivareddy-ch/writes-by-siva",
         description:
-            `This is a full-stack blogging application designed to share technical articles, coding solutions, and developer-focused blogs. It covers trending topics in software development such as AI/ML, the MERN stack, and modern engineering practices. The blog section includes detailed posts on system design and core computer science concepts, while the coding section focuses on competitive programming with practical solutions and explanations.
-            Each post is structured for clarity and usefulness, helping readers quickly grasp key ideas. Whether you’re a beginner or an experienced developer, the goal is to provide a clean, organized, and interactive platform to learn, explore, and grow in the tech field.`,
-        skills: ["React.Js", "Next.js", "CSS", "Node.js", "Express.js", "PostgreSQL", "Redis", "Gemini AI"],
+            `This is a full-stack blogging application designed to share technical articles, coding solutions, and developer-focused blogs. It covers trending topics in software development such as MERN stack, and modern engineering practices. The blog section includes detailed posts on system design and core computer science concepts, while the coding section focuses on competitive programming with practical solutions and explanations.
+            Each post is structured for clarity and usefulness, helping readers quickly grasp key ideas. `,
+        skills: ["React.Js", "Next.js", "CSS", "Node.js", "Express.js", "PostgreSQL", "Redis"],
         status: "Completed",
         preview: true,
         features: [],
@@ -40,28 +40,6 @@ const PROJECTS_DATA = [
             "best-practices": "96",
             seo: "100",
         },
-    },
-    {
-        id: "project2",
-        project_name: "Spotify Profile",
-        link: "https://music-dashboard-spotify.vercel.app/",
-        gitlink: "https://github.com/sambasivareddy-ch/spotify-profile-client",
-        description:
-            "A sleek and responsive frontend application that integrates with the Spotify Web API to deliver a personalized music dashboard.",
-        skills: ["React (TS)", "Express.js", "Spotify API"],
-        status: "Completed",
-        preview: false,
-        features: [
-            "Spotify OAuth login for secure authentication.",
-            "Display user's top artists with name, popularity, followers count, and genres.",
-            "Show user's playlists with ability to view songs inside each playlist.",
-            "Display user's top songs based on listening history.",
-            "Show detailed song information including artist, release year, popularity, and duration.",
-            "Allow user to play songs using web browser or mobile Spotify app.",
-            "Display currently playing song with real-time updates.",
-            "Show user's playback queue with upcoming tracks.",
-            "Responsive design for optimal experience across desktop, tablet, and mobile.",
-        ],
     },
     {
         id: "project3",

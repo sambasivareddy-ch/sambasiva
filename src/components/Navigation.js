@@ -72,17 +72,7 @@ const Navigation = () => {
           </li>
           <li className={styles['blog-btn']}>
             <a className={styles["nav-link"]} href="https://bysiva.blog" aria-label="portfolio" target="_blank" rel="noreferrer">
-              My Writes
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://github.com/sambasivareddy-ch"
-              rel="noreferrer"
-              target="_blank"
-              aria-label="github"
-            >
-              <GitHubIcon />
+              My Blogs
             </a>
           </li>
         </ol>
