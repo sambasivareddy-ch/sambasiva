@@ -1,7 +1,7 @@
 import React from "react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import InstagramIcon from "@mui/icons-material/Instagram";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import DraftsIcon from '@mui/icons-material/Drafts';
 
 import styles from "../styles/page.module.css";
 
@@ -13,13 +13,14 @@ const Contact = () => {
         Hello There! I'm open for Opportunity. If you feel I'm eligible or just
         want to say Hi on LinkedIn. I will get back with reply. Thank You!
       </p>
-      {/* <a
+      <a
         href="mailto:sambasivareddychinta@gmail.com"
         className={styles["email-link"]}
         aria-label="email address"
       >
-        Say Hello
-      </a> */}
+        <DraftsIcon/>
+        Say Hello via Mail
+      </a>
       <ul className={styles["contact-links"]}>
         <li>
           <a

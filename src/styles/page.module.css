@@ -509,7 +509,16 @@
   border-radius: 5px;
   text-decoration: none;
   font-size: 1em;
-  color: var(--primary-text);
+  color: #000;
+  background-color: var(--cyan-color);
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.email-link svg {
+  fill: #000;
+  background-color: var(--cyan-color);
 }
 
 .email-link:hover {

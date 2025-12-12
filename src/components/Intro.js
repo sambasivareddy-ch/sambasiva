@@ -21,15 +21,15 @@ const Intro = () => {
         >
           LinkedIn
         </a>
-        <a
-          href="https://drive.google.com/file/d/1nDr5RtHl5S5Vj-Wb2kMFd-DyLnC6IL-Z/view"
+        {/* <a
+          href=""
           alt="resume"
           className={styles["resume-link"]}
           target="_blank"
           rel="noreferrer"
         >
           Resume
-        </a>
+        </a> */}
       </div>
     </div>
   );

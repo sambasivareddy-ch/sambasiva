@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import styles from "../styles/typingtitles.module.css";
 
 export default function TypingTitles() {
-  const titles = ["Software Developer", "Database Researcher"];
+  const titles = ["a, Software Developer", "a, Database Researcher"];
   const [index, setIndex] = useState(0);
   const [displayText, setDisplayText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
