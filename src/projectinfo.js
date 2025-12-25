@@ -1,5 +1,16 @@
 const PROJECTS_DATA = [
     {
+        id: "dbu",
+        project_name: "Distributed Postgres Join Optimizer",
+        link: "https://github.com/sambasivareddy-ch/distributed-pg-stats/releases/tag/v1.0.0",
+        gitlink: "https://github.com/sambasivareddy-ch/distributed-pg-stats",
+        description:
+            "A tool to build the global NDV (Number of Distinct Values) stats, load them and use them to give the optimal join order based on the given query.",
+        skills: ["PostgreSQL", "Optimizer", "PG Extension", "Go", "Cobra", "CLI"],
+        status: "Completed",
+        preview: true,
+    },
+    {
         id: "project1",
         project_name: "Blog Page",
         link: "https://bysiva.blog/",
